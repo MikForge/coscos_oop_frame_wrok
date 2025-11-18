@@ -1,0 +1,52 @@
+{
+  "e4bc9cd1-ac2b-4518-9119-df2701940556": {
+    "url": "db://assets/Main.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7": {
+    "url": "db://assets/main.scene",
+    "value": {
+      "depends": [
+        "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "b10b1762-30ab-4e75-995a-010fe164f0e2": {
+    "url": "db://assets/script",
+    "value": {},
+    "versionCode": 1
+  },
+  "606462f0-96b2-4475-8f06-1dcfcf2981e7": {
+    "url": "db://assets/script/Main.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0b7c26a0-8c72-4b38-9c6e-941188a9a30f": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "aa2047bf-13a4-4f7f-be4d-98c1a83b325f": {
+    "url": "db://assets/resources/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "8229cb53-17cc-4152-9813-126371315b28": {
+    "url": "db://assets/resources/common/folder",
+    "value": {},
+    "versionCode": 1
+  },
+  "0926f218-6995-4b4c-8cb0-1049ce293492": {
+    "url": "db://assets/resources/common/prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "1b04a0be-6607-41ef-a0e1-8bc483019a44": {
+    "url": "db://assets/resources/common/texture",
+    "value": {},
+    "versionCode": 1
+  }
+}

@@ -1,0 +1,600 @@
+2025-11-17 15:55:28-log: Cannot access game frame or container.
+2025-11-17 15:55:28-debug: asset-db:require-engine-code (368ms)
+2025-11-17 15:55:28-log: meshopt wasm decoder initialized
+2025-11-17 15:55:28-log: [box2d]:box2d wasm lib loaded.
+2025-11-17 15:55:28-log: [bullet]:bullet wasm lib loaded.
+2025-11-17 15:55:28-log: Cocos Creator v3.8.7
+2025-11-17 15:55:28-log: Using legacy pipeline
+2025-11-17 15:55:28-log: Forward render pipeline initialized.
+2025-11-17 15:55:28-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:29.13MB, end 79.49MB, increase: 50.36MB
+2025-11-17 15:55:30-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:79.57MB, end 243.75MB, increase: 164.18MB
+2025-11-17 15:55:30-debug: run package(harmonyos-next) handler(enable) start
+2025-11-17 15:55:30-debug: run package(harmonyos-next) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(honor-mini-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(huawei-agc) handler(enable) start
+2025-11-17 15:55:30-debug: run package(huawei-quick-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(ios) handler(enable) start
+2025-11-17 15:55:30-debug: run package(ios) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(honor-mini-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(linux) handler(enable) start
+2025-11-17 15:55:30-debug: run package(linux) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(mac) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(migu-mini-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(migu-mini-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(native) handler(enable) start
+2025-11-17 15:55:30-debug: run package(native) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(ohos) handler(enable) start
+2025-11-17 15:55:30-debug: run package(ohos) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(oppo-mini-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(oppo-mini-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(runtime-dev-tools) handler(enable) start
+2025-11-17 15:55:30-debug: run package(runtime-dev-tools) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(taobao-mini-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(taobao-mini-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(vivo-mini-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(vivo-mini-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(web-desktop) handler(enable) start
+2025-11-17 15:55:30-debug: run package(web-desktop) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(huawei-agc) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(web-mobile) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(wechatgame) handler(enable) start
+2025-11-17 15:55:30-debug: run package(wechatgame) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(wechatprogram) handler(enable) start
+2025-11-17 15:55:30-debug: run package(wechatprogram) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(mac) handler(enable) start
+2025-11-17 15:55:30-debug: run package(windows) handler(enable) start
+2025-11-17 15:55:30-debug: run package(xiaomi-quick-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(xiaomi-quick-game) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(cocos-service) handler(enable) start
+2025-11-17 15:55:30-debug: run package(cocos-service) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(im-plugin) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(im-plugin) handler(enable) start
+2025-11-17 15:55:30-debug: run package(placeholder) handler(enable) start
+2025-11-17 15:55:30-debug: run package(placeholder) handler(enable) success!
+2025-11-17 15:55:30-debug: run package(huawei-quick-game) handler(enable) start
+2025-11-17 15:55:30-debug: run package(web-mobile) handler(enable) start
+2025-11-17 15:55:30-debug: run package(windows) handler(enable) success!
+2025-11-17 15:55:30-debug: asset-db:worker-init: initPlugin (1690ms)
+2025-11-17 15:55:30-debug: [Assets Memory track]: asset-db:worker-init start:29.12MB, end 240.87MB, increase: 211.75MB
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-11-17 15:55:30-debug: Preimport db  success
+2025-11-17 15:55:30-debug: Preimport db  success
+2025-11-17 15:55:30-debug: Run asset db hook programming:afterPreStart ...
+2025-11-17 15:55:30-debug: starting packer-driver...
+2025-11-17 15:55:30-debug: Run asset db hook programming:beforePreStart success!
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-11-17 15:55:30-debug: Run asset db hook programming:beforePreStart ...
+2025-11-17 15:55:30-debug: asset-db:worker-init (2142ms)
+2025-11-17 15:55:30-debug: asset-db-hook-programming-beforePreStart (21ms)
+2025-11-17 15:55:30-debug: asset-db-hook-engine-extends-beforePreStart (21ms)
+2025-11-17 15:55:30-debug: initialize scripting environment...
+2025-11-17 15:55:30-debug: [[Executor]] prepare before lock
+2025-11-17 15:55:30-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-11-17 15:55:30-debug: [[Executor]] prepare after unlock
+2025-11-17 15:55:30-debug: Run asset db hook programming:afterPreStart success!
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-11-17 15:55:30-debug: Start up the 'internal' database...
+2025-11-17 15:55:30-debug: [Assets Memory track]: asset-db:worker-init: preStart start:240.89MB, end 242.00MB, increase: 1.11MB
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-11-17 15:55:30-debug: asset-db-hook-programming-afterPreStart (121ms)
+2025-11-17 15:55:30-debug: asset-db:worker-effect-data-processing (37ms)
+2025-11-17 15:55:30-debug: asset-db-hook-engine-extends-afterPreStart (37ms)
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:afterStartDB ...
+2025-11-17 15:55:30-debug: recompile effect.bin success
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:afterStartDB success!
+2025-11-17 15:55:30-debug: Start up the 'assets' database...
+2025-11-17 15:55:30-debug: asset-db:worker-effect-data-processing (144ms)
+2025-11-17 15:55:30-debug: asset-db-hook-engine-extends-afterStartDB (144ms)
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:afterStartDB ...
+2025-11-17 15:55:30-debug: recompile effect.bin success
+2025-11-17 15:55:30-debug: lazy register asset handler directory
+2025-11-17 15:55:30-debug: lazy register asset handler text
+2025-11-17 15:55:30-debug: lazy register asset handler json
+2025-11-17 15:55:30-debug: lazy register asset handler spine-data
+2025-11-17 15:55:30-debug: lazy register asset handler dragonbones
+2025-11-17 15:55:30-debug: lazy register asset handler dragonbones-atlas
+2025-11-17 15:55:30-debug: lazy register asset handler terrain
+2025-11-17 15:55:30-debug: lazy register asset handler javascript
+2025-11-17 15:55:30-debug: lazy register asset handler typescript
+2025-11-17 15:55:30-debug: lazy register asset handler scene
+2025-11-17 15:55:30-debug: lazy register asset handler prefab
+2025-11-17 15:55:30-debug: lazy register asset handler sprite-frame
+2025-11-17 15:55:30-debug: lazy register asset handler tiled-map
+2025-11-17 15:55:30-debug: lazy register asset handler buffer
+2025-11-17 15:55:30-debug: lazy register asset handler image
+2025-11-17 15:55:30-debug: lazy register asset handler sign-image
+2025-11-17 15:55:30-debug: lazy register asset handler alpha-image
+2025-11-17 15:55:30-debug: lazy register asset handler texture
+2025-11-17 15:55:30-debug: lazy register asset handler texture-cube
+2025-11-17 15:55:30-debug: lazy register asset handler erp-texture-cube
+2025-11-17 15:55:30-debug: lazy register asset handler render-texture
+2025-11-17 15:55:30-debug: lazy register asset handler texture-cube-face
+2025-11-17 15:55:30-debug: lazy register asset handler rt-sprite-frame
+2025-11-17 15:55:30-debug: lazy register asset handler gltf
+2025-11-17 15:55:30-debug: lazy register asset handler gltf-mesh
+2025-11-17 15:55:30-debug: lazy register asset handler gltf-animation
+2025-11-17 15:55:30-debug: lazy register asset handler gltf-skeleton
+2025-11-17 15:55:30-debug: lazy register asset handler gltf-material
+2025-11-17 15:55:30-debug: lazy register asset handler gltf-scene
+2025-11-17 15:55:30-debug: lazy register asset handler gltf-embeded-image
+2025-11-17 15:55:30-debug: lazy register asset handler *
+2025-11-17 15:55:30-debug: lazy register asset handler material
+2025-11-17 15:55:30-debug: lazy register asset handler physics-material
+2025-11-17 15:55:30-debug: lazy register asset handler effect
+2025-11-17 15:55:30-debug: lazy register asset handler effect-header
+2025-11-17 15:55:30-debug: lazy register asset handler audio-clip
+2025-11-17 15:55:30-debug: lazy register asset handler animation-clip
+2025-11-17 15:55:30-debug: Run asset db hook engine-extends:afterStartDB success!
+2025-11-17 15:55:30-debug: lazy register asset handler animation-graph-variant
+2025-11-17 15:55:30-debug: lazy register asset handler animation-mask
+2025-11-17 15:55:30-debug: lazy register asset handler ttf-font
+2025-11-17 15:55:30-debug: lazy register asset handler bitmap-font
+2025-11-17 15:55:30-debug: lazy register asset handler particle
+2025-11-17 15:55:30-debug: lazy register asset handler sprite-atlas
+2025-11-17 15:55:30-debug: [Assets Memory track]: asset-db:worker-init: startup start:242.01MB, end 264.66MB, increase: 22.64MB
+2025-11-17 15:55:30-debug: lazy register asset handler label-atlas
+2025-11-17 15:55:30-debug: lazy register asset handler render-pipeline
+2025-11-17 15:55:30-debug: lazy register asset handler render-stage
+2025-11-17 15:55:30-debug: lazy register asset handler fbx
+2025-11-17 15:55:30-debug: lazy register asset handler instantiation-material
+2025-11-17 15:55:30-debug: lazy register asset handler instantiation-mesh
+2025-11-17 15:55:30-debug: lazy register asset handler instantiation-skeleton
+2025-11-17 15:55:30-debug: lazy register asset handler instantiation-animation
+2025-11-17 15:55:30-debug: lazy register asset handler video-clip
+2025-11-17 15:55:30-debug: lazy register asset handler render-flow
+2025-11-17 15:55:30-debug: lazy register asset handler auto-atlas
+2025-11-17 15:55:30-debug: lazy register asset handler animation-graph
+2025-11-17 15:55:30-debug: asset-db:worker-effect-data-processing (120ms)
+2025-11-17 15:55:30-debug: asset-db-hook-engine-extends-afterStartDB (121ms)
+2025-11-17 15:55:30-debug: asset-db:start-database (579ms)
+2025-11-17 15:55:30-debug: asset-db:ready (3853ms)
+2025-11-17 15:55:30-debug: init worker message success
+2025-11-17 15:55:30-debug: programming:execute-script (3ms)
+2025-11-17 15:55:31-debug: [Build Memory track]: builder:worker-init start:268.36MB, end 282.22MB, increase: 13.87MB
+2025-11-17 15:55:31-debug: builder:worker-init (219ms)
+2025-11-17 15:55:44-debug: refresh db internal success
+2025-11-17 15:55:44-debug: refresh db assets success
+2025-11-17 15:55:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 15:55:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 15:55:44-debug: asset-db:refresh-all-database (29ms)
+2025-11-17 15:55:44-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 15:55:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 15:56:31-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/Main.scene...
+2025-11-17 15:56:31-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/Main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-17 15:56:31-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets success
+2025-11-17 15:56:34-debug: programming:execute-script (1ms)
+2025-11-17 15:56:37-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/Main.scene...
+2025-11-17 15:56:37-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/Main.scene...
+2025-11-17 15:56:37-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/Main.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-11-17 15:56:37-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets success
+2025-11-17 15:56:37-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/Main.scene success
+2025-11-17 15:56:46-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scene...
+2025-11-17 15:56:46-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-17 15:56:46-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets success
+2025-11-17 15:57:34-debug: refresh db internal success
+2025-11-17 15:57:34-debug: refresh db assets success
+2025-11-17 15:57:34-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 15:57:34-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 15:57:34-debug: asset-db:refresh-all-database (35ms)
+2025-11-17 15:57:34-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-17 15:57:34-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 15:58:42-debug: refresh db internal success
+2025-11-17 15:58:42-debug: refresh db assets success
+2025-11-17 15:58:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 15:58:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 15:58:42-debug: asset-db:refresh-all-database (35ms)
+2025-11-17 15:58:42-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 15:58:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 15:59:14-debug: refresh db internal success
+2025-11-17 15:59:14-debug: refresh db assets success
+2025-11-17 15:59:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 15:59:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 15:59:14-debug: asset-db:refresh-all-database (34ms)
+2025-11-17 15:59:14-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 15:59:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 15:59:39-debug: refresh db internal success
+2025-11-17 15:59:39-debug: refresh db assets success
+2025-11-17 15:59:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 15:59:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 15:59:39-debug: asset-db:refresh-all-database (37ms)
+2025-11-17 15:59:39-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 15:59:39-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 15:59:44-debug: refresh db internal success
+2025-11-17 15:59:44-debug: refresh db assets success
+2025-11-17 15:59:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 15:59:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 15:59:44-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 15:59:44-debug: asset-db:refresh-all-database (30ms)
+2025-11-17 15:59:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:00:14-debug: refresh db internal success
+2025-11-17 16:00:14-debug: refresh db assets success
+2025-11-17 16:00:14-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:00:14-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:00:14-debug: asset-db:refresh-all-database (35ms)
+2025-11-17 16:00:14-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:00:14-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:00:37-debug: refresh db internal success
+2025-11-17 16:00:37-debug: refresh db assets success
+2025-11-17 16:00:37-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:00:37-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:00:37-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:00:37-debug: asset-db:refresh-all-database (28ms)
+2025-11-17 16:00:37-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:00:41-debug: refresh db internal success
+2025-11-17 16:00:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:00:41-debug: refresh db assets success
+2025-11-17 16:00:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:00:41-debug: asset-db:refresh-all-database (30ms)
+2025-11-17 16:00:41-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:00:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:00:48-debug: refresh db internal success
+2025-11-17 16:00:48-debug: refresh db assets success
+2025-11-17 16:00:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:00:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:00:48-debug: asset-db:refresh-all-database (32ms)
+2025-11-17 16:00:48-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:00:48-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:00:54-debug: refresh db internal success
+2025-11-17 16:00:54-debug: refresh db assets success
+2025-11-17 16:00:54-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:00:54-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:00:54-debug: asset-db:refresh-all-database (31ms)
+2025-11-17 16:00:54-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:00:54-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:04:50-debug: refresh db internal success
+2025-11-17 16:04:50-debug: refresh db assets success
+2025-11-17 16:04:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:04:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:04:50-debug: asset-db:refresh-all-database (27ms)
+2025-11-17 16:04:50-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:05:03-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/S cbackground: #aaff85; color: #000;color: #000;
+2025-11-17 16:05:03-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/S c...
+2025-11-17 16:05:03-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets success
+2025-11-17 16:05:09-debug: refresh db internal success
+2025-11-17 16:05:09-debug: refresh db assets success
+2025-11-17 16:05:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:05:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:05:09-debug: asset-db:refresh-all-database (19ms)
+2025-11-17 16:05:09-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:05:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:05:16-debug: start move asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/S c -> /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script...
+2025-11-17 16:05:16-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script...
+2025-11-17 16:05:16-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2025-11-17 16:05:16-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets success
+2025-11-17 16:05:16-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets...
+2025-11-17 16:05:16-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok success
+2025-11-17 16:05:16-debug: move asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/S c -> /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script success
+2025-11-17 16:05:26-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts...
+2025-11-17 16:05:26-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.tsbackground: #aaff85; color: #000;color: #000;
+2025-11-17 16:05:26-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script success
+2025-11-17 16:05:26-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/scriptbackground: #aaff85; color: #000;color: #000;
+2025-11-17 16:07:49-debug: refresh db internal success
+2025-11-17 16:07:49-debug: refresh db assets success
+2025-11-17 16:07:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:07:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:07:49-debug: asset-db:refresh-all-database (28ms)
+2025-11-17 16:07:49-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-17 16:07:49-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 16:20:21-debug: refresh db internal success
+2025-11-17 16:20:21-debug: refresh db assets success
+2025-11-17 16:20:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:20:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:20:21-debug: asset-db:refresh-all-database (30ms)
+2025-11-17 16:20:29-debug: refresh db internal success
+2025-11-17 16:20:29-debug: refresh db assets success
+2025-11-17 16:20:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:20:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:20:29-debug: asset-db:refresh-all-database (20ms)
+2025-11-17 16:20:29-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-17 16:20:29-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 16:20:46-debug: refresh db internal success
+2025-11-17 16:20:46-debug: refresh db assets success
+2025-11-17 16:20:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:20:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:20:46-debug: asset-db:refresh-all-database (29ms)
+2025-11-17 16:20:46-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:20:46-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:25:12-debug: refresh db internal success
+2025-11-17 16:25:12-debug: refresh db assets success
+2025-11-17 16:25:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:25:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:25:12-debug: asset-db:refresh-all-database (90ms)
+2025-11-17 16:25:12-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-17 16:25:12-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-11-17 16:25:41-debug: refresh db internal success
+2025-11-17 16:25:41-debug: refresh db assets success
+2025-11-17 16:25:41-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:25:41-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:25:41-debug: asset-db:refresh-all-database (20ms)
+2025-11-17 16:25:41-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:25:41-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:26:11-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources...
+2025-11-17 16:26:11-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2025-11-17 16:26:11-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets success
+2025-11-17 16:26:31-debug: refresh db internal success
+2025-11-17 16:26:31-debug: refresh db assets success
+2025-11-17 16:26:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:26:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:26:31-debug: asset-db:refresh-all-database (30ms)
+2025-11-17 16:26:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:26:31-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:26:47-debug: refresh db internal success
+2025-11-17 16:26:47-debug: refresh db assets success
+2025-11-17 16:26:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:26:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:26:47-debug: asset-db:refresh-all-database (26ms)
+2025-11-17 16:26:47-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:26:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:26:52-debug: refresh db internal success
+2025-11-17 16:26:52-debug: refresh db assets success
+2025-11-17 16:26:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:26:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:26:52-debug: asset-db:refresh-all-database (30ms)
+2025-11-17 16:28:02-debug: refresh db internal success
+2025-11-17 16:28:02-debug: refresh db assets success
+2025-11-17 16:28:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:28:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:28:02-debug: asset-db:refresh-all-database (21ms)
+2025-11-17 16:28:02-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 16:34:49-debug: refresh db internal success
+2025-11-17 16:34:49-debug: refresh db assets success
+2025-11-17 16:34:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:34:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:34:49-debug: asset-db:refresh-all-database (36ms)
+2025-11-17 16:34:49-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:34:49-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:34:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2025-11-17 16:34:51-debug: asset-db:reimport-asset0b7c26a0-8c72-4b38-9c6e-941188a9a30f (4ms)
+2025-11-17 16:35:58-debug: refresh db internal success
+2025-11-17 16:35:58-debug: refresh db assets success
+2025-11-17 16:35:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:35:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:35:58-debug: asset-db:refresh-all-database (36ms)
+2025-11-17 16:35:58-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 16:35:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 16:53:32-debug: refresh db internal success
+2025-11-17 16:53:32-debug: refresh db assets success
+2025-11-17 16:53:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 16:53:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 16:53:32-debug: asset-db:refresh-all-database (36ms)
+2025-11-17 16:53:32-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 16:53:32-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 17:06:03-debug: refresh db internal success
+2025-11-17 17:06:03-debug: refresh db assets success
+2025-11-17 17:06:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 17:06:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 17:06:03-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 17:06:03-debug: asset-db:refresh-all-database (34ms)
+2025-11-17 17:06:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 17:20:30-debug: refresh db internal success
+2025-11-17 17:20:30-debug: refresh db assets success
+2025-11-17 17:20:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 17:20:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 17:20:30-debug: asset-db:refresh-all-database (33ms)
+2025-11-17 17:20:30-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 17:47:52-debug: refresh db internal success
+2025-11-17 17:47:52-debug: refresh db assets success
+2025-11-17 17:47:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 17:47:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 17:47:52-debug: asset-db:refresh-all-database (32ms)
+2025-11-17 17:47:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-17 19:01:16-debug: refresh db internal success
+2025-11-17 19:01:16-debug: refresh db assets success
+2025-11-17 19:01:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 19:01:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 19:01:16-debug: asset-db:refresh-all-database (77ms)
+2025-11-17 19:01:16-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-17 19:01:16-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 19:48:53-debug: refresh db internal success
+2025-11-17 19:48:53-debug: refresh db assets success
+2025-11-17 19:48:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-17 19:48:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-17 19:48:53-debug: asset-db:refresh-all-database (92ms)
+2025-11-17 19:48:53-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-17 19:48:53-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 02:48:27-debug: refresh db internal success
+2025-11-18 02:48:27-debug: refresh db assets success
+2025-11-18 02:48:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 02:48:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 02:48:27-debug: asset-db:refresh-all-database (77ms)
+2025-11-18 02:48:27-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-18 02:48:27-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 02:59:02-debug: refresh db internal success
+2025-11-18 02:59:02-debug: refresh db assets success
+2025-11-18 02:59:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 02:59:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 02:59:02-debug: asset-db:refresh-all-database (29ms)
+2025-11-18 02:59:02-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 02:59:02-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-18 03:01:17-debug: refresh db internal success
+2025-11-18 03:01:17-debug: refresh db assets success
+2025-11-18 03:01:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 03:01:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 03:01:17-debug: asset-db:refresh-all-database (19ms)
+2025-11-18 03:01:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 04:04:13-debug: refresh db internal success
+2025-11-18 04:04:13-debug: refresh db assets success
+2025-11-18 04:04:13-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 04:04:13-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 04:04:13-debug: asset-db:refresh-all-database (49ms)
+2025-11-18 04:04:13-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 04:04:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 10:53:01-debug: refresh db internal success
+2025-11-18 10:53:01-debug: refresh db assets success
+2025-11-18 10:53:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 10:53:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 10:53:01-debug: asset-db:refresh-all-database (81ms)
+2025-11-18 10:53:01-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 10:53:01-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 15:23:38-debug: refresh db internal success
+2025-11-18 15:23:38-debug: refresh db assets success
+2025-11-18 15:23:38-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 15:23:38-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 15:23:38-debug: asset-db:refresh-all-database (32ms)
+2025-11-18 15:23:38-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 15:23:38-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 15:31:03-debug: refresh db internal success
+2025-11-18 15:31:03-debug: refresh db assets success
+2025-11-18 15:31:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 15:31:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 15:31:03-debug: asset-db:refresh-all-database (45ms)
+2025-11-18 15:31:03-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 15:31:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 18:09:29-debug: refresh db internal success
+2025-11-18 18:09:29-debug: refresh db assets success
+2025-11-18 18:09:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 18:09:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 18:09:29-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2025-11-18 18:09:29-debug: asset-db:refresh-all-database (84ms)
+2025-11-18 18:09:29-debug: asset-db:worker-effect-data-processing (3ms)
+2025-11-18 18:21:16-debug: refresh db internal success
+2025-11-18 18:21:16-debug: refresh db assets success
+2025-11-18 18:21:16-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 18:21:16-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 18:21:16-debug: asset-db:refresh-all-database (42ms)
+2025-11-18 18:21:16-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 18:21:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 18:44:21-debug: refresh db internal success
+2025-11-18 18:44:21-debug: refresh db assets success
+2025-11-18 18:44:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 18:44:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 18:44:21-debug: asset-db:refresh-all-database (19ms)
+2025-11-18 18:44:21-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 18:44:21-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 18:44:33-debug: refresh db internal success
+2025-11-18 18:44:33-debug: refresh db assets success
+2025-11-18 18:44:33-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 18:44:33-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 18:44:33-debug: asset-db:refresh-all-database (27ms)
+2025-11-18 18:44:33-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 18:44:33-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 19:37:57-debug: refresh db internal success
+2025-11-18 19:37:57-debug: refresh db assets success
+2025-11-18 19:37:57-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 19:37:57-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 19:37:57-debug: asset-db:refresh-all-database (41ms)
+2025-11-18 19:37:57-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 19:37:57-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-18 19:41:43-debug: refresh db internal success
+2025-11-18 19:41:43-debug: refresh db assets success
+2025-11-18 19:41:43-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 19:41:43-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 19:41:43-debug: asset-db:refresh-all-database (30ms)
+2025-11-18 19:41:43-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 19:41:43-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 20:00:47-debug: refresh db internal success
+2025-11-18 20:00:47-debug: refresh db assets success
+2025-11-18 20:00:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 20:00:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 20:00:47-debug: asset-db:refresh-all-database (39ms)
+2025-11-18 20:00:47-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 20:00:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 20:03:31-debug: refresh db internal success
+2025-11-18 20:03:31-debug: refresh db assets success
+2025-11-18 20:03:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 20:03:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 20:03:31-debug: asset-db:refresh-all-database (28ms)
+2025-11-18 20:03:31-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 20:03:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 20:03:45-debug: refresh db internal success
+2025-11-18 20:03:45-debug: refresh db assets success
+2025-11-18 20:03:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 20:03:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 20:03:45-debug: asset-db:refresh-all-database (34ms)
+2025-11-18 20:03:45-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 20:03:53-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common...
+2025-11-18 20:03:53-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/commonbackground: #aaff85; color: #000;color: #000;
+2025-11-18 20:03:53-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources success
+2025-11-18 20:03:53-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resourcesbackground: #aaff85; color: #000;color: #000;
+2025-11-18 20:03:59-debug: refresh db internal success
+2025-11-18 20:03:59-debug: refresh db assets success
+2025-11-18 20:03:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 20:03:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 20:03:59-debug: asset-db:refresh-all-database (34ms)
+2025-11-18 20:03:59-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 20:03:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 20:05:11-debug: refresh db internal success
+2025-11-18 20:05:11-debug: refresh db assets success
+2025-11-18 20:05:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 20:05:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 20:05:11-debug: asset-db:refresh-all-database (34ms)
+2025-11-18 20:05:11-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 20:05:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 20:05:36-debug: refresh db internal success
+2025-11-18 20:05:36-debug: refresh db assets success
+2025-11-18 20:05:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 20:05:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 20:05:36-debug: asset-db:refresh-all-database (26ms)
+2025-11-18 20:05:36-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 20:05:36-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-18 20:05:42-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/folder...
+2025-11-18 20:05:42-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/folderbackground: #aaff85; color: #000;color: #000;
+2025-11-18 20:05:42-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common success
+2025-11-18 20:05:42-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/commonbackground: #aaff85; color: #000;color: #000;
+2025-11-18 20:05:46-debug: programming:execute-script (8ms)
+2025-11-18 20:05:48-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/folder...
+2025-11-18 20:05:48-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/folder...
+2025-11-18 20:05:48-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/folderbackground: #ffb8b8; color: #000;color: #000;
+2025-11-18 20:05:48-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common success
+2025-11-18 20:05:48-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/folder success
+2025-11-18 20:05:48-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/commonbackground: #aaff85; color: #000;color: #000;
+2025-11-18 22:43:29-debug: refresh db internal success
+2025-11-18 22:43:29-debug: refresh db assets success
+2025-11-18 22:43:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 22:43:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 22:43:29-debug: asset-db:refresh-all-database (70ms)
+2025-11-18 22:43:29-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-18 22:43:29-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 22:43:44-debug: refresh db internal success
+2025-11-18 22:43:44-debug: refresh db assets success
+2025-11-18 22:43:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-18 22:43:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-18 22:43:44-debug: asset-db:refresh-all-database (18ms)
+2025-11-18 22:43:44-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-18 22:43:44-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-18 22:43:52-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/perfab...
+2025-11-18 22:43:52-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/perfabbackground: #aaff85; color: #000;color: #000;
+2025-11-18 22:43:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common success
+2025-11-18 22:43:53-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/commonbackground: #aaff85; color: #000;color: #000;
+2025-11-18 22:44:05-debug: start move asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/perfab -> /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefab...
+2025-11-18 22:44:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefab...
+2025-11-18 22:44:05-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefabbackground: #aaff85; color: #000;color: #000;
+2025-11-18 22:44:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common success
+2025-11-18 22:44:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common...
+2025-11-18 22:44:05-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/commonbackground: #aaff85; color: #000;color: #000;
+2025-11-18 22:44:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources success
+2025-11-18 22:44:05-debug: move asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/perfab -> /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefab success
+2025-11-19 03:14:53-debug: refresh db internal success
+2025-11-19 03:14:53-debug: refresh db assets success
+2025-11-19 03:14:53-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 03:14:53-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 03:14:53-debug: asset-db:refresh-all-database (48ms)
+2025-11-19 03:14:53-debug: asset-db:worker-effect-data-processing (4ms)
+2025-11-19 03:14:53-debug: asset-db-hook-engine-extends-afterRefresh (10ms)
+2025-11-19 03:15:39-debug: refresh db internal success
+2025-11-19 03:15:39-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.tsbackground: #aaff85; color: #000;color: #000;
+2025-11-19 03:15:39-debug: refresh db assets success
+2025-11-19 03:15:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 03:15:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 03:15:39-debug: asset-db:refresh-all-database (30ms)
+2025-11-19 03:15:39-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 03:15:39-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 03:15:55-debug: refresh db internal success
+2025-11-19 03:15:55-debug: refresh db assets success
+2025-11-19 03:15:55-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 03:15:55-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 03:15:55-debug: asset-db:refresh-all-database (30ms)
+2025-11-19 03:15:55-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 03:15:55-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 03:15:59-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture...
+2025-11-19 03:15:59-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 03:15:59-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common success
+2025-11-19 03:15:59-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/commonbackground: #aaff85; color: #000;color: #000;
+2025-11-19 03:22:35-debug: refresh db internal success
+2025-11-19 03:22:35-debug: refresh db assets success
+2025-11-19 03:22:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 03:22:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 03:22:35-debug: asset-db:refresh-all-database (38ms)
+2025-11-19 03:22:35-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 03:22:37-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 03:22:37-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (7ms)

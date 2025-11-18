@@ -1,0 +1,14 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "main.scene",
+            "script",
+            "script/Main.ts",
+            "resources",
+            "resources/common",
+            "resources/common/prefab",
+            "resources/common/texture"
+        ]
+    }
+}
