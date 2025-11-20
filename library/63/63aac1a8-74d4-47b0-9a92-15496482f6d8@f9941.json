@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_5",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 576,
+      "height": 324
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 576,
+      "height": 324
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -288,
+        -162,
+        0,
+        288,
+        -162,
+        0,
+        -288,
+        162,
+        0,
+        288,
+        162,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        324,
+        576,
+        324,
+        0,
+        0,
+        576,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -288,
+        "y": -162,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 288,
+        "y": 162,
+        "z": 0
+      }
+    },
+    "texture": "63aac1a8-74d4-47b0-9a92-15496482f6d8@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

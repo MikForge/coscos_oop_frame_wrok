@@ -1,0 +1,948 @@
+2025-11-19 03:25:51-log: Cannot access game frame or container.
+2025-11-19 03:25:51-debug: asset-db:require-engine-code (415ms)
+2025-11-19 03:25:51-log: [box2d]:box2d wasm lib loaded.
+2025-11-19 03:25:51-log: meshopt wasm decoder initialized
+2025-11-19 03:25:51-log: [bullet]:bullet wasm lib loaded.
+2025-11-19 03:25:51-log: Cocos Creator v3.8.7
+2025-11-19 03:25:51-log: Using legacy pipeline
+2025-11-19 03:25:51-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:29.17MB, end 79.79MB, increase: 50.61MB
+2025-11-19 03:25:51-log: Forward render pipeline initialized.
+2025-11-19 03:25:53-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:79.87MB, end 275.79MB, increase: 195.91MB
+2025-11-19 03:25:53-debug: run package(linux) handler(enable) start
+2025-11-19 03:25:53-debug: run package(mac) handler(enable) start
+2025-11-19 03:25:53-debug: run package(migu-mini-game) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(native) handler(enable) start
+2025-11-19 03:25:53-debug: run package(native) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(ohos) handler(enable) start
+2025-11-19 03:25:53-debug: run package(ohos) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(oppo-mini-game) handler(enable) start
+2025-11-19 03:25:53-debug: run package(migu-mini-game) handler(enable) start
+2025-11-19 03:25:53-debug: run package(runtime-dev-tools) handler(enable) start
+2025-11-19 03:25:53-debug: run package(runtime-dev-tools) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(taobao-mini-game) handler(enable) start
+2025-11-19 03:25:53-debug: run package(taobao-mini-game) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(vivo-mini-game) handler(enable) start
+2025-11-19 03:25:53-debug: run package(vivo-mini-game) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(web-desktop) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(web-desktop) handler(enable) start
+2025-11-19 03:25:53-debug: run package(web-mobile) handler(enable) start
+2025-11-19 03:25:53-debug: run package(linux) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(wechatgame) handler(enable) start
+2025-11-19 03:25:53-debug: run package(wechatgame) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(wechatprogram) handler(enable) start
+2025-11-19 03:25:53-debug: run package(wechatprogram) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(windows) handler(enable) start
+2025-11-19 03:25:53-debug: run package(windows) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(xiaomi-quick-game) handler(enable) start
+2025-11-19 03:25:53-debug: run package(xiaomi-quick-game) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(web-mobile) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(cocos-service) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(im-plugin) handler(enable) start
+2025-11-19 03:25:53-debug: run package(im-plugin) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(placeholder) handler(enable) start
+2025-11-19 03:25:53-debug: run package(placeholder) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(mac) handler(enable) success!
+2025-11-19 03:25:53-debug: run package(cocos-service) handler(enable) start
+2025-11-19 03:25:53-debug: run package(oppo-mini-game) handler(enable) success!
+2025-11-19 03:25:53-debug: asset-db:worker-init: initPlugin (1630ms)
+2025-11-19 03:25:53-debug: [Assets Memory track]: asset-db:worker-init start:29.16MB, end 277.25MB, increase: 248.09MB
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-11-19 03:25:53-debug: Preimport db  success
+2025-11-19 03:25:53-debug: Preimport db  success
+2025-11-19 03:25:53-debug: Run asset db hook programming:afterPreStart ...
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-11-19 03:25:53-debug: Run asset db hook programming:beforePreStart ...
+2025-11-19 03:25:53-debug: Run asset db hook programming:beforePreStart success!
+2025-11-19 03:25:53-debug: starting packer-driver...
+2025-11-19 03:25:53-debug: asset-db:worker-init (2133ms)
+2025-11-19 03:25:53-debug: asset-db-hook-engine-extends-beforePreStart (24ms)
+2025-11-19 03:25:53-debug: asset-db-hook-programming-beforePreStart (24ms)
+2025-11-19 03:25:53-debug: initialize scripting environment...
+2025-11-19 03:25:53-debug: [[Executor]] prepare before lock
+2025-11-19 03:25:53-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-11-19 03:25:53-debug: [[Executor]] prepare after unlock
+2025-11-19 03:25:53-debug: Run asset db hook programming:afterPreStart success!
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-11-19 03:25:53-debug: [Assets Memory track]: asset-db:worker-init: preStart start:277.26MB, end 281.12MB, increase: 3.86MB
+2025-11-19 03:25:53-debug: Start up the 'internal' database...
+2025-11-19 03:25:53-debug: asset-db-hook-programming-afterPreStart (129ms)
+2025-11-19 03:25:53-debug: asset-db:worker-effect-data-processing (42ms)
+2025-11-19 03:25:53-debug: asset-db-hook-engine-extends-afterPreStart (42ms)
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:afterStartDB ...
+2025-11-19 03:25:53-debug: recompile effect.bin success
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:afterStartDB success!
+2025-11-19 03:25:53-debug: asset-db:worker-effect-data-processing (156ms)
+2025-11-19 03:25:53-debug: Start up the 'assets' database...
+2025-11-19 03:25:53-debug: asset-db-hook-engine-extends-afterStartDB (157ms)
+2025-11-19 03:25:53-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:afterStartDB ...
+2025-11-19 03:25:53-debug: recompile effect.bin success
+2025-11-19 03:25:53-debug: lazy register asset handler directory
+2025-11-19 03:25:53-debug: lazy register asset handler text
+2025-11-19 03:25:53-debug: lazy register asset handler json
+2025-11-19 03:25:53-debug: lazy register asset handler spine-data
+2025-11-19 03:25:53-debug: lazy register asset handler dragonbones
+2025-11-19 03:25:53-debug: lazy register asset handler dragonbones-atlas
+2025-11-19 03:25:53-debug: lazy register asset handler terrain
+2025-11-19 03:25:53-debug: lazy register asset handler javascript
+2025-11-19 03:25:53-debug: lazy register asset handler typescript
+2025-11-19 03:25:53-debug: lazy register asset handler scene
+2025-11-19 03:25:53-debug: lazy register asset handler prefab
+2025-11-19 03:25:53-debug: lazy register asset handler sprite-frame
+2025-11-19 03:25:53-debug: lazy register asset handler tiled-map
+2025-11-19 03:25:53-debug: lazy register asset handler buffer
+2025-11-19 03:25:53-debug: lazy register asset handler image
+2025-11-19 03:25:53-debug: lazy register asset handler sign-image
+2025-11-19 03:25:53-debug: lazy register asset handler alpha-image
+2025-11-19 03:25:53-debug: lazy register asset handler texture
+2025-11-19 03:25:53-debug: lazy register asset handler texture-cube
+2025-11-19 03:25:53-debug: lazy register asset handler erp-texture-cube
+2025-11-19 03:25:53-debug: lazy register asset handler render-texture
+2025-11-19 03:25:53-debug: lazy register asset handler texture-cube-face
+2025-11-19 03:25:53-debug: lazy register asset handler gltf
+2025-11-19 03:25:53-debug: lazy register asset handler rt-sprite-frame
+2025-11-19 03:25:53-debug: lazy register asset handler gltf-animation
+2025-11-19 03:25:53-debug: lazy register asset handler gltf-mesh
+2025-11-19 03:25:53-debug: lazy register asset handler gltf-material
+2025-11-19 03:25:53-debug: lazy register asset handler gltf-scene
+2025-11-19 03:25:53-debug: lazy register asset handler gltf-skeleton
+2025-11-19 03:25:53-debug: lazy register asset handler gltf-embeded-image
+2025-11-19 03:25:53-debug: lazy register asset handler fbx
+2025-11-19 03:25:53-debug: lazy register asset handler physics-material
+2025-11-19 03:25:53-debug: lazy register asset handler effect
+2025-11-19 03:25:53-debug: lazy register asset handler effect-header
+2025-11-19 03:25:53-debug: lazy register asset handler audio-clip
+2025-11-19 03:25:53-debug: lazy register asset handler animation-clip
+2025-11-19 03:25:53-debug: lazy register asset handler material
+2025-11-19 03:25:53-debug: lazy register asset handler animation-graph
+2025-11-19 03:25:53-debug: [Assets Memory track]: asset-db:worker-init: startup start:281.13MB, end 304.00MB, increase: 22.86MB
+2025-11-19 03:25:53-debug: lazy register asset handler ttf-font
+2025-11-19 03:25:53-debug: lazy register asset handler animation-mask
+2025-11-19 03:25:53-debug: lazy register asset handler bitmap-font
+2025-11-19 03:25:53-debug: lazy register asset handler particle
+2025-11-19 03:25:53-debug: lazy register asset handler sprite-atlas
+2025-11-19 03:25:53-debug: lazy register asset handler auto-atlas
+2025-11-19 03:25:53-debug: lazy register asset handler label-atlas
+2025-11-19 03:25:53-debug: lazy register asset handler render-pipeline
+2025-11-19 03:25:53-debug: lazy register asset handler render-stage
+2025-11-19 03:25:53-debug: lazy register asset handler render-flow
+2025-11-19 03:25:53-debug: lazy register asset handler instantiation-material
+2025-11-19 03:25:53-debug: lazy register asset handler instantiation-mesh
+2025-11-19 03:25:53-debug: lazy register asset handler instantiation-skeleton
+2025-11-19 03:25:53-debug: lazy register asset handler instantiation-animation
+2025-11-19 03:25:53-debug: lazy register asset handler video-clip
+2025-11-19 03:25:53-debug: Run asset db hook engine-extends:afterStartDB success!
+2025-11-19 03:25:53-debug: lazy register asset handler animation-graph-variant
+2025-11-19 03:25:53-debug: lazy register asset handler *
+2025-11-19 03:25:53-debug: asset-db:worker-effect-data-processing (124ms)
+2025-11-19 03:25:53-debug: asset-db-hook-engine-extends-afterStartDB (125ms)
+2025-11-19 03:25:53-debug: asset-db:ready (4046ms)
+2025-11-19 03:25:53-debug: asset-db:start-database (618ms)
+2025-11-19 03:25:53-debug: init worker message success
+2025-11-19 03:25:53-debug: programming:execute-script (2ms)
+2025-11-19 03:25:53-debug: [Build Memory track]: builder:worker-init start:301.60MB, end 316.23MB, increase: 14.62MB
+2025-11-19 03:25:53-debug: builder:worker-init (230ms)
+2025-11-19 03:50:35-debug: refresh db internal success
+2025-11-19 03:50:35-debug: refresh db assets success
+2025-11-19 03:50:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 03:50:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 03:50:35-debug: asset-db:refresh-all-database (46ms)
+2025-11-19 03:50:35-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 03:50:35-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 04:07:07-debug: refresh db internal success
+2025-11-19 04:07:07-debug: refresh db assets success
+2025-11-19 04:07:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 04:07:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 04:07:07-debug: asset-db:refresh-all-database (31ms)
+2025-11-19 04:07:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 08:54:30-debug: refresh db internal success
+2025-11-19 08:54:30-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.tsbackground: #aaff85; color: #000;color: #000;
+2025-11-19 08:54:30-debug: refresh db assets success
+2025-11-19 08:54:30-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 08:54:30-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 08:54:30-debug: asset-db:refresh-all-database (28ms)
+2025-11-19 08:54:30-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 08:54:30-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 09:04:51-debug: refresh db internal success
+2025-11-19 09:04:51-debug: refresh db assets success
+2025-11-19 09:04:51-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 09:04:51-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 09:04:51-debug: asset-db:refresh-all-database (27ms)
+2025-11-19 09:04:51-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 09:04:51-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 12:51:40-debug: refresh db internal success
+2025-11-19 12:51:40-debug: refresh db assets success
+2025-11-19 12:51:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 12:51:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 12:51:40-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 12:51:40-debug: asset-db:refresh-all-database (51ms)
+2025-11-19 12:51:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 18:22:12-debug: refresh db internal success
+2025-11-19 18:22:12-debug: refresh db assets success
+2025-11-19 18:22:12-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 18:22:12-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 18:22:12-debug: asset-db:refresh-all-database (96ms)
+2025-11-19 18:22:12-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 18:22:12-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 19:27:01-debug: refresh db internal success
+2025-11-19 19:27:01-debug: refresh db assets success
+2025-11-19 19:27:01-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 19:27:01-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 19:27:01-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-19 19:27:01-debug: asset-db:refresh-all-database (38ms)
+2025-11-19 19:27:01-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 19:46:21-debug: refresh db internal success
+2025-11-19 19:46:21-debug: refresh db assets success
+2025-11-19 19:46:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 19:46:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 19:46:21-debug: asset-db:refresh-all-database (41ms)
+2025-11-19 19:46:21-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 19:46:21-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 20:17:46-debug: refresh db internal success
+2025-11-19 20:17:46-debug: refresh db assets success
+2025-11-19 20:17:46-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:17:46-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:17:46-debug: asset-db:refresh-all-database (96ms)
+2025-11-19 20:17:46-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+2025-11-19 20:17:46-debug: asset-db:worker-effect-data-processing (4ms)
+2025-11-19 20:21:08-debug: refresh db internal success
+2025-11-19 20:21:08-debug: refresh db assets success
+2025-11-19 20:21:08-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:21:08-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:21:08-debug: asset-db:refresh-all-database (28ms)
+2025-11-19 20:21:08-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-19 20:21:08-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 20:22:57-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 20:22:57-debug: asset-db:reimport-asset1b04a0be-6607-41ef-a0e1-8bc483019a44 (16ms)
+2025-11-19 20:35:19-debug: refresh db internal success
+2025-11-19 20:35:19-debug: refresh db assets success
+2025-11-19 20:35:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:35:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:35:19-debug: asset-db:refresh-all-database (46ms)
+2025-11-19 20:35:19-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 20:35:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 20:35:25-debug: refresh db internal success
+2025-11-19 20:35:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:35:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:35:25-debug: refresh db assets success
+2025-11-19 20:35:25-debug: asset-db:refresh-all-database (14ms)
+2025-11-19 20:35:25-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 20:35:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 20:35:27-debug: refresh db internal success
+2025-11-19 20:35:27-debug: refresh db assets success
+2025-11-19 20:35:27-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:35:27-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:35:27-debug: asset-db:refresh-all-database (13ms)
+2025-11-19 20:36:11-debug: refresh db internal success
+2025-11-19 20:36:11-debug: refresh db assets success
+2025-11-19 20:36:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:36:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:36:11-debug: asset-db:refresh-all-database (31ms)
+2025-11-19 20:36:11-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 20:36:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 20:59:39-debug: refresh db internal success
+2025-11-19 20:59:39-debug: refresh db assets success
+2025-11-19 20:59:39-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 20:59:39-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 20:59:39-debug: asset-db:refresh-all-database (76ms)
+2025-11-19 20:59:39-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-19 20:59:39-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 21:19:20-debug: refresh db internal success
+2025-11-19 21:19:20-debug: refresh db assets success
+2025-11-19 21:19:20-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 21:19:20-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 21:19:20-debug: asset-db:refresh-all-database (42ms)
+2025-11-19 21:19:20-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 21:19:20-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 21:20:31-debug: refresh db internal success
+2025-11-19 21:20:31-debug: refresh db assets success
+2025-11-19 21:20:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 21:20:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 21:20:31-debug: asset-db:refresh-all-database (30ms)
+2025-11-19 21:20:31-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 21:20:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 21:38:50-debug: refresh db internal success
+2025-11-19 21:38:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 21:38:50-debug: refresh db assets success
+2025-11-19 21:38:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 21:38:50-debug: asset-db:refresh-all-database (14ms)
+2025-11-19 22:02:17-debug: refresh db internal success
+2025-11-19 22:02:17-debug: refresh db assets success
+2025-11-19 22:02:17-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:02:17-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:02:17-debug: asset-db:refresh-all-database (39ms)
+2025-11-19 22:02:17-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:02:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:02:19-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:02:19-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (7ms)
+2025-11-19 22:03:59-debug: refresh db internal success
+2025-11-19 22:03:59-debug: refresh db assets success
+2025-11-19 22:03:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:03:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:03:59-debug: asset-db:refresh-all-database (24ms)
+2025-11-19 22:03:59-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:03:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:22:29-debug: refresh db internal success
+2025-11-19 22:22:29-debug: refresh db assets success
+2025-11-19 22:22:29-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:22:29-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:22:29-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:22:29-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:22:29-debug: asset-db:refresh-all-database (18ms)
+2025-11-19 22:27:24-debug: refresh db internal success
+2025-11-19 22:27:24-debug: refresh db assets success
+2025-11-19 22:27:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:27:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:27:24-debug: asset-db:refresh-all-database (49ms)
+2025-11-19 22:27:24-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:27:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:30:45-debug: refresh db internal success
+2025-11-19 22:30:45-debug: refresh db assets success
+2025-11-19 22:30:45-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:30:45-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:30:45-debug: asset-db:refresh-all-database (20ms)
+2025-11-19 22:31:09-debug: refresh db internal success
+2025-11-19 22:31:09-debug: refresh db assets success
+2025-11-19 22:31:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:31:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:31:09-debug: asset-db:refresh-all-database (27ms)
+2025-11-19 22:31:09-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:31:09-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:33:07-debug: refresh db internal success
+2025-11-19 22:33:07-debug: refresh db assets success
+2025-11-19 22:33:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:33:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:33:07-debug: asset-db:refresh-all-database (32ms)
+2025-11-19 22:33:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:34:05-debug: refresh db internal success
+2025-11-19 22:34:05-debug: refresh db assets success
+2025-11-19 22:34:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:34:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:34:05-debug: asset-db:refresh-all-database (31ms)
+2025-11-19 22:34:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:44:49-debug: refresh db internal success
+2025-11-19 22:44:49-debug: refresh db assets success
+2025-11-19 22:44:49-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:44:49-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:44:49-debug: asset-db:refresh-all-database (33ms)
+2025-11-19 22:44:49-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-19 22:44:49-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 22:44:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:44:50-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (8ms)
+2025-11-19 22:47:09-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 22:47:09-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:47:09-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:47:09-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 22:47:09-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:47:09-debug: refresh db internal success
+2025-11-19 22:47:09-debug: refresh db assets success
+2025-11-19 22:47:09-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:47:09-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:47:09-debug: asset-db:refresh-all-database (29ms)
+2025-11-19 22:48:50-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.png...
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png...
+2025-11-19 22:48:50-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png...
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 22:48:50-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 22:48:50-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 22:48:50-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:50-debug: refresh db internal success
+2025-11-19 22:48:50-debug: refresh db assets success
+2025-11-19 22:48:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:48:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:48:50-debug: asset-db:refresh-all-database (21ms)
+2025-11-19 22:48:50-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:48:50-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:48:54-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:54-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:48:54-debug: asset-db:reimport-assetb0afb038-d508-46b3-854d-1ec155b6bd35 (20ms)
+2025-11-19 22:48:59-debug: refresh db internal success
+2025-11-19 22:48:59-debug: refresh db assets success
+2025-11-19 22:48:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:48:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:48:59-debug: asset-db:refresh-all-database (26ms)
+2025-11-19 22:48:59-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:48:59-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 22:49:03-debug: refresh db internal success
+2025-11-19 22:49:03-debug: refresh db assets success
+2025-11-19 22:49:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:49:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:49:03-debug: asset-db:refresh-all-database (29ms)
+2025-11-19 22:49:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:49:19-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:19-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:19-debug: asset-db:reimport-asset12b1af14-f1ad-4efd-bb52-4a4a6a8f1beb (23ms)
+2025-11-19 22:49:31-log: 资源数据库已锁定，资源操作(bound _reimportAsset)将会延迟响应，请稍侯
+2025-11-19 22:49:31-debug: refresh db internal success
+2025-11-19 22:49:31-debug: refresh db assets success
+2025-11-19 22:49:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:49:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:49:31-debug: asset-db:refresh-all-database (24ms)
+2025-11-19 22:49:31-debug: asset-db:worker-effect-data-processing (2ms)
+2025-11-19 22:49:31-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-11-19 22:49:31-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:31-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:31-debug: asset-db:reimport-asset589b044b-8a2e-4770-bbc2-89abb5ad668e (5ms)
+2025-11-19 22:49:40-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:40-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (7ms)
+2025-11-19 22:49:41-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:41-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (4ms)
+2025-11-19 22:49:44-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:44-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:49:45-debug: asset-db:reimport-assetb9d69de2-8dfc-4c75-a681-02cfa1695bfc (22ms)
+2025-11-19 22:50:02-debug: programming:execute-script (10ms)
+2025-11-19 22:50:04-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png...
+2025-11-19 22:50:04-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png...
+2025-11-19 22:50:04-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 22:50:04-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 22:50:04-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 22:50:04-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gradient.png success
+2025-11-19 22:50:04-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:51:58-debug: refresh db internal success
+2025-11-19 22:51:58-debug: refresh db assets success
+2025-11-19 22:51:58-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:51:58-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:51:58-debug: asset-db:refresh-all-database (32ms)
+2025-11-19 22:51:58-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:51:58-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:52:05-debug: refresh db internal success
+2025-11-19 22:52:05-debug: refresh db assets success
+2025-11-19 22:52:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 22:52:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 22:52:05-debug: asset-db:refresh-all-database (30ms)
+2025-11-19 22:52:05-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 22:52:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 22:52:14-debug: start move asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.png -> /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png...
+2025-11-19 22:52:14-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png...
+2025-11-19 22:52:14-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:52:14-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:52:14-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture...
+2025-11-19 22:52:14-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 22:52:14-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 22:52:14-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common success
+2025-11-19 22:52:14-debug: move asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat.png -> /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png success
+2025-11-19 23:42:26-debug: refresh db internal success
+2025-11-19 23:42:26-debug: refresh db assets success
+2025-11-19 23:42:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:42:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:42:26-debug: asset-db:refresh-all-database (64ms)
+2025-11-19 23:42:26-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 23:42:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 23:42:38-debug: programming:execute-script (1ms)
+2025-11-19 23:42:39-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png...
+2025-11-19 23:42:39-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png...
+2025-11-19 23:42:39-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:42:39-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png...
+2025-11-19 23:42:39-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:42:39-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:42:39-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png...
+2025-11-19 23:42:39-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:42:39-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:42:39-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:42:39-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:42:39-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:42:39-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:39-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_gloss.png success
+2025-11-19 23:42:39-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:39-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_fla t.png success
+2025-11-19 23:42:39-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:39-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png success
+2025-11-19 23:42:39-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:42:51-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:51-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:52-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:52-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:42:52-debug: refresh db internal success
+2025-11-19 23:42:52-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:42:52-debug: refresh db assets success
+2025-11-19 23:42:52-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:42:52-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:42:52-debug: asset-db:refresh-all-database (25ms)
+2025-11-19 23:42:52-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 23:42:52-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 23:43:03-debug: programming:execute-script (1ms)
+2025-11-19 23:43:04-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:43:04-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:43:04-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:43:05-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:43:05-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png success
+2025-11-19 23:43:05-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:05-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png success
+2025-11-19 23:43:05-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:27-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:43:27-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:41-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:41-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:41-debug: asset-db:reimport-asset07eac4b7-a75d-4ce5-97fb-f66292cfef64 (25ms)
+2025-11-19 23:43:52-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:52-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:43:52-debug: asset-db:reimport-asset3fad13d4-f974-469a-99ef-0502483b42ba (8ms)
+2025-11-19 23:44:56-debug: refresh db internal success
+2025-11-19 23:44:56-debug: refresh db assets success
+2025-11-19 23:44:56-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:44:56-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:44:56-debug: asset-db:refresh-all-database (33ms)
+2025-11-19 23:44:56-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 23:45:30-debug: programming:execute-script (17ms)
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:45:32-debug: start remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:45:32-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: %cDestroy%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: remove asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png success
+2025-11-19 23:45:32-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:32-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:47-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:45:47-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:47-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:47-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:45:47-debug: refresh db internal success
+2025-11-19 23:45:47-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:47-debug: refresh db assets success
+2025-11-19 23:45:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:45:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:45:47-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 23:45:47-debug: asset-db:refresh-all-database (20ms)
+2025-11-19 23:45:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 23:45:54-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:54-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:54-debug: asset-db:reimport-asseta3cfe71f-e34a-4842-aa1c-9dc5fd3e0b9d (5ms)
+2025-11-19 23:45:57-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:45:57-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (4ms)
+2025-11-19 23:46:02-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scenebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:46:02-debug: asset-db:reimport-asseta48da9f5-db0a-4ac4-9747-455e7ac4ddd7 (4ms)
+2025-11-19 23:46:18-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:46:18-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:46:18-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@f9941background: #aaff85; color: #000;color: #000;
+2025-11-19 23:46:18-debug: asset-db:reimport-asseta3cfe71f-e34a-4842-aa1c-9dc5fd3e0b9d (9ms)
+2025-11-19 23:47:13-debug: refresh db internal success
+2025-11-19 23:47:13-debug: refresh db assets success
+2025-11-19 23:47:13-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:47:13-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:47:13-debug: asset-db:refresh-all-database (37ms)
+2025-11-19 23:47:13-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 23:47:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png...
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png...
+2025-11-19 23:47:15-debug: start refresh asset from /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png...
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_large_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_outline_small_extra.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_square_header_blade_rectangle_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_shadow_round_small_extra.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_color_cross.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/button_rectangle_depth_flat_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/check_square_grey_checkmark.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_gradient_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_red.png@f9941background: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:15-debug: refresh asset /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture success
+2025-11-19 23:47:15-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texturebackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:25-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:25-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:25-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_green.png@f9941background: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:25-debug: asset-db:reimport-assetb70e6312-264a-4469-83f0-46a19cd43ab8 (30ms)
+2025-11-19 23:47:29-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:29-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:29-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/bar_round_gloss_small_blue.png@f9941background: #aaff85; color: #000;color: #000;
+2025-11-19 23:47:29-debug: asset-db:reimport-asset2d453847-ec60-4f1d-8eae-d83fcd2586ad (8ms)
+2025-11-19 23:48:08-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.pngbackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:48:08-debug: %cReImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-11-19 23:48:08-debug: %cImport%c: /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/texture/panel_square_header_large_square_screws_blue.png@f9941background: #aaff85; color: #000;color: #000;
+2025-11-19 23:48:08-debug: asset-db:reimport-asset429ba417-4de2-44ff-a896-0f004d2e0e56 (7ms)
+2025-11-19 23:49:07-debug: refresh db internal success
+2025-11-19 23:49:07-debug: refresh db assets success
+2025-11-19 23:49:07-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:49:07-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:49:07-debug: asset-db:refresh-all-database (20ms)
+2025-11-19 23:49:07-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 23:49:07-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-11-19 23:54:21-debug: refresh db internal success
+2025-11-19 23:54:21-debug: refresh db assets success
+2025-11-19 23:54:21-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-11-19 23:54:21-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-11-19 23:54:21-debug: asset-db:refresh-all-database (38ms)
+2025-11-19 23:54:21-debug: asset-db:worker-effect-data-processing (1ms)
+2025-11-19 23:54:21-debug: asset-db-hook-engine-extends-afterRefresh (2ms)

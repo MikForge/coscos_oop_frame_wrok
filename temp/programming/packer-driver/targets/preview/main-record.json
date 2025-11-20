@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 3557.390667,
+      "mTimestamp": 3491.119375,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -514,7 +514,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 127213347.319,
+      "mTimestamp": 108010911.710375,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -602,7 +602,7 @@
           }
         },
         {
-          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts",
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -611,6 +611,20 @@
             },
             "end": {
               "line": 10,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
               "column": 91
             }
           }
@@ -657,6 +671,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts"
           },
           "messages": []
         },
@@ -1232,7 +1253,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1763366126810,
+      "mTimestamp": 1763567670507,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1240,10 +1261,62 @@
     },
     "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts": {
       "mTimestamp": {
-        "mtime": 1763493338664.8088,
+        "mtime": 1763675639231.421,
         "uuid": "606462f0-96b2-4475-8f06-1dcfcf2981e7"
       },
       "chunkId": "4087735f30bcc22a259586fa376b89c453246e0e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts": {
+      "mTimestamp": {
+        "mtime": 1763675683157.4827,
+        "uuid": "c9f431a8-c954-4d0a-8661-79b743281fa9"
+      },
+      "chunkId": "4e48cf005590e51c491cfce0670b30a7ec4192b6",
       "imports": [
         {
           "value": "cc"

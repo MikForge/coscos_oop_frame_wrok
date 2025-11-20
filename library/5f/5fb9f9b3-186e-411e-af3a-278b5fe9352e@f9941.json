@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "heart_60",
+    "atlas": "",
+    "rect": {
+      "x": 13,
+      "y": 16,
+      "width": 54,
+      "height": 49
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 80,
+      "height": 80
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -27,
+        -24.5,
+        0,
+        27,
+        -24.5,
+        0,
+        -27,
+        24.5,
+        0,
+        27,
+        24.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        13,
+        64,
+        67,
+        64,
+        13,
+        15,
+        67,
+        15
+      ],
+      "nuv": [
+        0.1625,
+        0.1875,
+        0.8375,
+        0.1875,
+        0.1625,
+        0.8,
+        0.8375,
+        0.8
+      ],
+      "minPos": {
+        "x": -27,
+        "y": -24.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 27,
+        "y": 24.5,
+        "z": 0
+      }
+    },
+    "texture": "5fb9f9b3-186e-411e-af3a-278b5fe9352e@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

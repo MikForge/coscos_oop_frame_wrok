@@ -8,6 +8,7 @@
     "file:///Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "./chunks/33/33b14116158fcb1e038e9d77314001491583281e.js",
     "file:///Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "./chunks/96/9672576e8f949619f21c4260dfbc1483286b6784.js",
     "file:///Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/57/571e28c784e84d34bbc59c4ef618cdb62e8c2e07.js",
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts": "./chunks/4e/4e48cf005590e51c491cfce0670b30a7ec4192b6.js",
     "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts": "./chunks/40/4087735f30bcc22a259586fa376b89c453246e0e.js"
   },
   "scopes": {
@@ -39,6 +40,9 @@
       "__unresolved_7": "cce:/internal/x/cc-fu/dragon-bones",
       "__unresolved_8": "cce:/internal/x/cc-fu/gfx-webgl",
       "__unresolved_9": "cce:/internal/x/cc-fu/gfx-webgl2"
+    },
+    "./chunks/4e/4e48cf005590e51c491cfce0670b30a7ec4192b6.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/57/571e28c784e84d34bbc59c4ef618cdb62e8c2e07.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
@@ -75,7 +79,8 @@
       "__unresolved_3": "./chunks/33/33b14116158fcb1e038e9d77314001491583281e.js",
       "__unresolved_4": "./chunks/96/9672576e8f949619f21c4260dfbc1483286b6784.js",
       "__unresolved_5": "./chunks/57/571e28c784e84d34bbc59c4ef618cdb62e8c2e07.js",
-      "__unresolved_6": "./chunks/40/4087735f30bcc22a259586fa376b89c453246e0e.js"
+      "__unresolved_6": "./chunks/4e/4e48cf005590e51c491cfce0670b30a7ec4192b6.js",
+      "__unresolved_7": "./chunks/40/4087735f30bcc22a259586fa376b89c453246e0e.js"
     }
   }
 }

@@ -5,7 +5,11 @@
         "version": "Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:43 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8132"
     },
     "sceneListMap": {
-        "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7": "/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scene"
+        "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7": "/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/main.scene",
+        "53f5edff-c531-4c35-8dd6-a123979abb47": "/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefab/comPop.prefab",
+        "f24be4ca-2424-4fb9-b8c3-d2ae5619e585": "/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefab/comBtnClose.prefab",
+        "93124041-1eb4-4b5e-b5fe-0ce5af12eb3e": "/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/gui/mainui/MainUI.prefab",
+        "79b9c102-27be-478e-8ee3-0f8b057700a0": "/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/common/prefab/comBtnConfirm.prefab"
     },
     "deviceMd5": "ccd89e07890f9829b71e5e8b305741b3"
 }
