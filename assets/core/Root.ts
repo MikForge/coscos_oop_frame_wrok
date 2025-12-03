@@ -76,7 +76,7 @@ export class Root extends Component {
     private async loadGameConfig() {
 
         const jsonInfo = await Fwk.resMgr.load({
-            path: config_name,
+            paths: config_name,
             type: JsonAsset
         });
 

@@ -1,7 +1,7 @@
 
 import { Node, Camera } from "cc";
 import { LayerContainerType, LayerType, UIType } from "../common/enum/ui-layer.enum";
-import { enumEntries } from '../common/enum/utils';
+import { utils } from "../common/utils/utils";
 import { UIGameLayerNode } from "./layer/UIGameLayerNode";
 import { UIComponentConfig, UIConfigMap } from 'db://assets/core/common/struct/ui-structs';
 import { uiConfigRegistry } from "./UIConfigRegistry";
@@ -45,7 +45,7 @@ export class UIMgr {
         this.uiCamera = this.uiRoot.getComponentInChildren(Camera)!;
 
         // 按枚举值升序排序后遍历
-        const layerEntries = enumEntries(LayerType).sort((a, b) => Number(a[1]) - Number(b[1]));
+        const layerEntries = utils.enumEntries(LayerType).sort((a, b) => Number(a[1]) - Number(b[1]));
 
         for (const [layerName, layerTypeValue] of layerEntries) {
             const layerType = Number(layerTypeValue) as LayerType;
