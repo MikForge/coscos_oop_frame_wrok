@@ -482,17 +482,17 @@
   },
   "c1d9a257-39be-4b57-8699-a8c2000901fa@6c48a": {
     "texture": {
-      "mipfilter": "nearest"
+      "mipfilter": "none"
     }
   },
   "14651214-e54b-475e-8167-5a3be4122de3@6c48a": {
     "texture": {
-      "mipfilter": "nearest"
+      "mipfilter": "none"
     }
   },
   "6a7e9ad5-0323-40b8-81bb-0197fd4ddd66@6c48a": {
     "texture": {
-      "mipfilter": "nearest"
+      "mipfilter": "none"
     }
   },
   "213d8617-7fef-4ebe-b61f-1f4f1180e613@6c48a": {

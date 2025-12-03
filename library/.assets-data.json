@@ -8,14 +8,9 @@
     "url": "db://assets/main.scene",
     "value": {
       "depends": [
-        "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7",
-        "93124041-1eb4-4b5e-b5fe-0ce5af12eb3e",
-        "53f5edff-c531-4c35-8dd6-a123979abb47",
-        "38786f95-6b7d-44b7-a92c-cb8740283889",
-        "22a9b4ec-991a-4834-91e5-8a453d409f7b"
+        "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7"
       ],
       "dependScripts": [
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "606462f0-96b2-4475-8f06-1dcfcf2981e7"
       ]
     },
@@ -1017,6 +1012,7 @@
     "url": "db://assets/resources/gui/mainui/MainUI.prefab",
     "value": {
       "depends": [
+        "65a263af-0e95-4a6d-83c0-f81f74695a28@f9941",
         "b040f034-b7ba-4981-ad57-b90b83dd7abb",
         "463f7f25-ce3b-4bf5-b88a-c44fb1e2a98b@f9941",
         "5fb9f9b3-186e-411e-af3a-278b5fe9352e@f9941",
@@ -1031,7 +1027,8 @@
         "530bd114-318a-4214-a92d-d6c7c46a8ddc@f9941"
       ],
       "dependScripts": [
-        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "47db35f0-7151-4660-8705-e34cd14e0722"
       ]
     },
     "versionCode": 1
@@ -1367,9 +1364,13 @@
     "versionCode": 1
   },
   "3d713da0-e05e-438f-b169-43c37970b541": {
-    "url": "db://assets/resources/gui/loading/loading.prefab",
+    "url": "db://assets/resources/gui/loading/loadingUI.prefab",
     "value": {
-      "depends": [],
+      "depends": [
+        "65a263af-0e95-4a6d-83c0-f81f74695a28@f9941",
+        "f3fe5c29-c41c-47ba-82b0-2d03032fbe40@f9941",
+        "ac6dda6b-c422-482f-8915-ffb6fa029779@f9941"
+      ],
       "dependScripts": []
     },
     "versionCode": 1
@@ -2269,8 +2270,6 @@
     "value": {
       "depends": [
         "2587430a-dc5a-472b-b5f2-d9038862b3e7@f9941",
-        "d817f7f2-f08b-4387-927e-4e4c4ff57929@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
         "463f7f25-ce3b-4bf5-b88a-c44fb1e2a98b@f9941"
       ],
       "dependScripts": []
@@ -2624,6 +2623,233 @@
   },
   "c9f431a8-c954-4d0a-8661-79b743281fa9": {
     "url": "db://assets/core/Root.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "36eaf9f2-032a-441b-bdd5-c4a0036c65a8": {
+    "url": "db://assets/core/Fwks.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "be11f00f-3f63-4fb0-a32c-b36ee5195210": {
+    "url": "db://assets/core/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "03de4338-6ca3-4c16-a270-cece671a5972": {
+    "url": "db://assets/core/gui",
+    "value": {},
+    "versionCode": 1
+  },
+  "3c29af10-18b7-4056-a4d3-b972207336b3": {
+    "url": "db://assets/core/common/enum",
+    "value": {},
+    "versionCode": 1
+  },
+  "ae90034a-717d-4a7d-a745-0c1e0daabd95": {
+    "url": "db://assets/core/common/struct",
+    "value": {},
+    "versionCode": 1
+  },
+  "313de8d2-78dd-41fb-a375-25c9c3d6190b": {
+    "url": "db://assets/core/gui/layer",
+    "value": {},
+    "versionCode": 1
+  },
+  "13951266-0b83-48ae-bb8f-2875db4279e7": {
+    "url": "db://assets/core/common/enum/ui-layer.enum.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bc9232c7-e429-4e2c-8036-24541f698e91": {
+    "url": "db://assets/core/gui/layer/LayerMgr.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f6c8efa8-cf3b-4863-8ddd-95f01c302a95": {
+    "url": "db://assets/core/common/log/Logger.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f5b044c9-e495-44aa-b36b-2b76eadaa28b": {
+    "url": "db://assets/core/common/log",
+    "value": {},
+    "versionCode": 1
+  },
+  "12b826e6-6d86-4671-a0c5-bc61d73b23f2": {
+    "url": "db://assets/core/gui/layer/UIMgr.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0bd054a2-4081-4153-9947-0a7b3592475b": {
+    "url": "db://assets/core/common/enum/utils.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "56e3fd69-c355-4b06-9792-5b56597cba44": {
+    "url": "db://assets/core/gui/layer/LayerMgr.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "49a9608b-4d60-4b03-a95d-bfd056911ba8": {
+    "url": "db://assets/core/gui/layer/LayerHelper.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e86d3c5f-da8c-4cdb-8cd1-03970dfcd42b": {
+    "url": "db://assets/core/gui/layer/LayerUIGameNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f2b7bba1-e36d-432f-9328-c4573d358d29": {
+    "url": "db://assets/core/gui/layer/LayerUIPopUpNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ebf0966d-e3d4-4b26-9754-daa016de50ee": {
+    "url": "db://assets/core/gui/layer/LayerUISceneNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f12fa577-5f78-4be2-a1a8-7aded7d429c6": {
+    "url": "db://assets/core/gui/base",
+    "value": {},
+    "versionCode": 1
+  },
+  "0762bad7-fab2-4867-bc08-7037ae9779b4": {
+    "url": "db://assets/core/gui/UIHelper.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9b076f6d-02aa-4112-9a82-4a76de6c907a": {
+    "url": "db://assets/core/gui/UIMgr.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "537fa264-0a1a-4236-9f5c-d3facde0c196": {
+    "url": "db://assets/core/gui/layer/UIGameLayerNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d2b81ce5-6135-4312-befe-2f4567ae5fa6": {
+    "url": "db://assets/core/gui/layer/UIPopupLayerNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0fc5a433-e3a7-4831-84dc-7825e99fc0d2": {
+    "url": "db://assets/core/gui/layer/UIScreenLayerNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a85f55cf-7299-4438-ac5d-1ae70596692f": {
+    "url": "db://assets/core/gui/layer/UIElementComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "742c392b-a44a-423c-92d9-59849e178b4f": {
+    "url": "db://assets/core/gui/UIConfigRegistry.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9328f489-a0bc-44d3-9f76-aef8db8cc694": {
+    "url": "db://assets/core/gui/UIDecorator.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0c16265e-b138-4fe7-8780-1361b1852edc": {
+    "url": "db://assets/script/game",
+    "value": {},
+    "versionCode": 1
+  },
+  "96786bac-177e-4113-984c-fbb661364b69": {
+    "url": "db://assets/script/game/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "3d788433-e2d6-4da6-95bf-0b3084812819": {
+    "url": "db://assets/script/game/loading",
+    "value": {},
+    "versionCode": 1
+  },
+  "48b950ce-9bc7-4bb8-bce9-861fef57daa5": {
+    "url": "db://assets/core/common/struct/ui-structs.d.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "0b436ef6-cd6b-4993-83a1-355caae9c535": {
+    "url": "db://assets/core/gui/base/UILayerNodeBase.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8dcfe6f8-5944-4892-8f43-900657a82a02": {
+    "url": "db://assets/core/gui/base/UIMultiLayerNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f090a539-36de-4cc9-a65e-ff74045a7963": {
+    "url": "db://assets/core/gui/base/UISingletonLayerNode.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b959c9e8-25a5-4490-ab2b-3302222e5b01": {
+    "url": "db://assets/core/gui/base/UIViewState.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "23a6df37-ca20-41e6-aa46-c408c77a21ea": {
+    "url": "db://assets/script/game/common/UIManifest.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e1013138-901c-456b-9b56-fc092b8e0345": {
+    "url": "db://assets/core/common/loader/ResManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c26de9ab-6819-48cb-9d5d-ce530e873613": {
+    "url": "db://assets/core/common/loader",
+    "value": {},
+    "versionCode": 1
+  },
+  "3307a66f-c8f8-4922-abaa-4d44f0438202": {
+    "url": "db://assets/core/common/utils/utils.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4a059746-0574-45c0-9161-c962196a2ae2": {
+    "url": "db://assets/resources/game_config.json",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "01fcb2b5-2d4f-4eb9-8a3e-35385053ae8e": {
+    "url": "db://assets/core/common/utils",
+    "value": {},
+    "versionCode": 1
+  },
+  "9a47df24-0344-4912-bf56-d4a1fdd8c0cc": {
+    "url": "db://assets/core/gui/base/UICompBase.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "30220800-c9c6-4d6c-aba9-3c29d5f8db32": {
+    "url": "db://assets/script/game/mainui",
+    "value": {},
+    "versionCode": 1
+  },
+  "6fe67ef0-bc57-4139-b27e-c740a43d426c": {
+    "url": "db://assets/resources/gui/mainui/mai n.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "64435242-c42f-471c-950e-809d3e48df81": {
+    "url": "db://assets/script/game/mainui/mainui.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "47db35f0-7151-4660-8705-e34cd14e0722": {
+    "url": "db://assets/script/game/mainui/MainuiComp.ts",
     "value": {},
     "versionCode": 1
   }

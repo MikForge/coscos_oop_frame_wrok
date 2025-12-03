@@ -5,28 +5,28 @@
       "time": 1763366206449.7227
     },
     "main.scene": {
-      "time": 1763675083290.4346,
+      "time": 1764008035133.7803,
       "uuid": "a48da9f5-db0a-4ac4-9747-455e7ac4ddd7"
     },
     "script.meta": {
       "time": 1763366703734.4036
     },
     "script": {
-      "time": 1763366726500.7073,
+      "time": 1763865938998.7522,
       "uuid": "b10b1762-30ab-4e75-995a-010fe164f0e2"
     },
     "script/Main.ts.meta": {
       "time": 1763366726502.4055
     },
     "script/Main.ts": {
-      "time": 1763675639231.421,
+      "time": 1764022200936.0586,
       "uuid": "606462f0-96b2-4475-8f06-1dcfcf2981e7"
     },
     "resources.meta": {
       "time": 1763368491480.3772
     },
     "resources": {
-      "time": 1763588804571.6472,
+      "time": 1763913697750.78,
       "uuid": "0b7c26a0-8c72-4b38-9c6e-941188a9a30f"
     },
     "resources/common.meta": {
@@ -58,10 +58,10 @@
       "uuid": "a3cfe71f-e34a-4842-aa1c-9dc5fd3e0b9d"
     },
     "resources/common/texture/bar_round_gloss_small_blue.png.meta": {
-      "time": 1763567912111.239
+      "time": 1764005907856.5154
     },
     "resources/common/texture/bar_round_small_blue.png.meta": {
-      "time": 1763567912130.1611
+      "time": 1764005944163.622
     },
     "resources/common/texture/bar_round_large_red.png.meta": {
       "time": 1763567912113.4268
@@ -88,7 +88,7 @@
       "time": 1763567912172.7744
     },
     "resources/common/texture/bar_shadow_round_small_extra.png.meta": {
-      "time": 1763567912148.4434
+      "time": 1764019525798.7466
     },
     "resources/common/texture/check_square_color_cross.png.meta": {
       "time": 1763567912172.521
@@ -264,21 +264,21 @@
       "time": 1763590718566.9387
     },
     "resources/gui/mainui": {
-      "time": 1763632796678.1077,
+      "time": 1764018992016.058,
       "uuid": "70704f42-3bc4-4e49-9a29-859932e786b4"
     },
     "resources/gui/loading.meta": {
       "time": 1763590739029.9326
     },
     "resources/gui/loading": {
-      "time": 1763591268317.842,
+      "time": 1763955093657.861,
       "uuid": "670076f8-0dc6-47b8-bf0a-21eb245218db"
     },
     "resources/gui/mainui/MainUI.prefab.meta": {
       "time": 1763572032636.556
     },
     "resources/gui/mainui/MainUI.prefab": {
-      "time": 1763646593819.009,
+      "time": 1764130323574.542,
       "uuid": "93124041-1eb4-4b5e-b5fe-0ce5af12eb3e"
     },
     "resources/gui/mainui/texture.meta": {
@@ -287,13 +287,6 @@
     "resources/gui/mainui/texture": {
       "time": 1763635977192.5845,
       "uuid": "10906564-02ef-4c20-bc03-cb6109ea4c7d"
-    },
-    "resources/gui/loading/loading.prefab.meta": {
-      "time": 1763590862249.4045
-    },
-    "resources/gui/loading/loading.prefab": {
-      "time": 1763590862248.1794,
-      "uuid": "3d713da0-e05e-438f-b169-43c37970b541"
     },
     "resources/gui/loading/texture.meta": {
       "time": 1763591265803.0547
@@ -467,7 +460,7 @@
       "time": 1763632792749.142
     },
     "resources/gui/mainui/btnActCom.prefab": {
-      "time": 1763634778128.1497,
+      "time": 1764128841112.31,
       "uuid": "414e2339-30e6-41db-a7c2-e54e8ab61df6"
     },
     "resources/gui/mainui/texture/arrow_decorative_w_small.png.meta": {
@@ -502,7 +495,7 @@
       "time": 1763638702977.738
     },
     "resources/common/prefab/comBtn.prefab": {
-      "time": 1763638832931.9165,
+      "time": 1764129033502.5015,
       "uuid": "8b5a855e-af8a-4fda-8d57-2ca97a0157c5"
     },
     "resources/common/prefab/comBtnClose.prefab.meta": {
@@ -677,15 +670,282 @@
       "time": 1763675650800.9387
     },
     "core": {
-      "time": 1763675683158.1738,
+      "time": 1763683669185.9048,
       "uuid": "1c61952f-90ca-4461-9ef9-a6c03b1c3eca"
     },
     "core/Root.ts.meta": {
       "time": 1763675683160.0085
     },
     "core/Root.ts": {
-      "time": 1763675683157.4827,
+      "time": 1764638089281.9507,
       "uuid": "c9f431a8-c954-4d0a-8661-79b743281fa9"
+    },
+    "core/Fwks.ts.meta": {
+      "time": 1763683669190.7925
+    },
+    "core/common.meta": {
+      "time": 1763683669188.2966
+    },
+    "core/gui.meta": {
+      "time": 1763683669188.367
+    },
+    "core/common/enum.meta": {
+      "time": 1763683669188.4102
+    },
+    "core/common/struct.meta": {
+      "time": 1763683669188.453
+    },
+    "core/gui/layer.meta": {
+      "time": 1763683669188.6184
+    },
+    "core/common/enum/ui-layer.enum.ts.meta": {
+      "time": 1763683669191.5327
+    },
+    "core/common": {
+      "time": 1763913697751.1538,
+      "uuid": "be11f00f-3f63-4fb0-a32c-b36ee5195210"
+    },
+    "core/gui": {
+      "time": 1763865938999.1694,
+      "uuid": "03de4338-6ca3-4c16-a270-cece671a5972"
+    },
+    "core/common/enum": {
+      "time": 1764700446946.1313,
+      "uuid": "3c29af10-18b7-4056-a4d3-b972207336b3"
+    },
+    "core/common/struct": {
+      "time": 1763865938999.4268,
+      "uuid": "ae90034a-717d-4a7d-a745-0c1e0daabd95"
+    },
+    "core/gui/layer": {
+      "time": 1763844988718.1555,
+      "uuid": "313de8d2-78dd-41fb-a375-25c9c3d6190b"
+    },
+    "core/Fwks.ts": {
+      "time": 1764636809348.9668,
+      "uuid": "36eaf9f2-032a-441b-bdd5-c4a0036c65a8"
+    },
+    "core/common/enum/ui-layer.enum.ts": {
+      "time": 1763942799374.0552,
+      "uuid": "13951266-0b83-48ae-bb8f-2875db4279e7"
+    },
+    "core/common/log.meta": {
+      "time": 1763686022962.758
+    },
+    "core/common/log/Logger.ts.meta": {
+      "time": 1763686022963.3867
+    },
+    "core/common/log": {
+      "time": 1763686022961.3752,
+      "uuid": "f5b044c9-e495-44aa-b36b-2b76eadaa28b"
+    },
+    "core/common/log/Logger.ts": {
+      "time": 1764021066004.9983,
+      "uuid": "f6c8efa8-cf3b-4863-8ddd-95f01c302a95"
+    },
+    "core/gui/layer/LayerMgr.ts.meta": {
+      "time": 1763764533505.924
+    },
+    "core/gui/layer/LayerHelper.ts.meta": {
+      "time": 1763767940750.098
+    },
+    "core/gui/layer/LayerUIGameNode.ts.meta": {
+      "time": 1763767940750.2434
+    },
+    "core/gui/layer/LayerUIPopUpNode.ts.meta": {
+      "time": 1763767940750.3213
+    },
+    "core/gui/layer/LayerUISceneNode.ts.meta": {
+      "time": 1763767940750.393
+    },
+    "core/gui/base": {
+      "time": 1763942380875.622,
+      "uuid": "f12fa577-5f78-4be2-a1a8-7aded7d429c6"
+    },
+    "core/gui/UIHelper.ts": {
+      "time": 1763835550670.325,
+      "uuid": "0762bad7-fab2-4867-bc08-7037ae9779b4"
+    },
+    "core/gui/UIMgr.ts": {
+      "time": 1764022581909.3062,
+      "uuid": "9b076f6d-02aa-4112-9a82-4a76de6c907a"
+    },
+    "core/gui/layer/UIGameLayerNode.ts": {
+      "time": 1764184323487.4338,
+      "uuid": "537fa264-0a1a-4236-9f5c-d3facde0c196"
+    },
+    "core/gui/layer/UIPopupLayerNode.ts": {
+      "time": 1763936918681.1797,
+      "uuid": "d2b81ce5-6135-4312-befe-2f4567ae5fa6"
+    },
+    "core/gui/layer/UIScreenLayerNode.ts": {
+      "time": 1763937606344.438,
+      "uuid": "0fc5a433-e3a7-4831-84dc-7825e99fc0d2"
+    },
+    "core/gui/base.meta": {
+      "time": 1763838731906.39
+    },
+    "core/gui/UIHelper.ts.meta": {
+      "time": 1763838731907.8242
+    },
+    "core/gui/UIMgr.ts.meta": {
+      "time": 1763838731907.9155
+    },
+    "core/gui/layer/UIGameLayerNode.ts.meta": {
+      "time": 1763838731909.4524
+    },
+    "core/gui/layer/UIPopupLayerNode.ts.meta": {
+      "time": 1763838731909.578
+    },
+    "core/gui/layer/UIScreenLayerNode.ts.meta": {
+      "time": 1763838731909.6736
+    },
+    "core/gui/layer/UIElementComponent.ts.meta": {
+      "time": 1763838759942.8843
+    },
+    "core/gui/layer/UIElementComponent.ts": {
+      "time": 1764636682389.1824,
+      "uuid": "a85f55cf-7299-4438-ac5d-1ae70596692f"
+    },
+    "script/game.meta": {
+      "time": 1763865939003.4004
+    },
+    "core/gui/UIConfigRegistry.ts.meta": {
+      "time": 1763865939004.8013
+    },
+    "core/gui/UIDecorator.ts.meta": {
+      "time": 1763865939005.1572
+    },
+    "script/game/common.meta": {
+      "time": 1763865939003.4795
+    },
+    "script/game/loading.meta": {
+      "time": 1763865939003.5334
+    },
+    "core/common/struct/ui-structs.d.ts.meta": {
+      "time": 1763865939003.936
+    },
+    "core/gui/base/UILayerNodeBase.ts.meta": {
+      "time": 1763865939005.3706
+    },
+    "core/gui/base/UIMultiLayerNode.ts.meta": {
+      "time": 1763865939005.496
+    },
+    "core/gui/base/UISingletonLayerNode.ts.meta": {
+      "time": 1763865939005.581
+    },
+    "core/gui/base/UIViewState.ts.meta": {
+      "time": 1763865939007.5686
+    },
+    "script/game/common/UIManifest.ts.meta": {
+      "time": 1763865939008.1257
+    },
+    "script/game": {
+      "time": 1764018972877.0889,
+      "uuid": "0c16265e-b138-4fe7-8780-1361b1852edc"
+    },
+    "script/game/common": {
+      "time": 1763865938999.8044,
+      "uuid": "96786bac-177e-4113-984c-fbb661364b69"
+    },
+    "script/game/loading": {
+      "time": 1763856092003.7346,
+      "uuid": "3d788433-e2d6-4da6-95bf-0b3084812819"
+    },
+    "core/common/struct/ui-structs.d.ts": {
+      "time": 1764636642589.3506,
+      "uuid": "48b950ce-9bc7-4bb8-bce9-861fef57daa5"
+    },
+    "core/gui/UIConfigRegistry.ts": {
+      "time": 1763948000552.313,
+      "uuid": "742c392b-a44a-423c-92d9-59849e178b4f"
+    },
+    "core/gui/UIDecorator.ts": {
+      "time": 1763943029313.6514,
+      "uuid": "9328f489-a0bc-44d3-9f76-aef8db8cc694"
+    },
+    "core/gui/base/UILayerNodeBase.ts": {
+      "time": 1764638581698.233,
+      "uuid": "0b436ef6-cd6b-4993-83a1-355caae9c535"
+    },
+    "core/gui/base/UIMultiLayerNode.ts": {
+      "time": 1764147683787.454,
+      "uuid": "8dcfe6f8-5944-4892-8f43-900657a82a02"
+    },
+    "core/gui/base/UISingletonLayerNode.ts": {
+      "time": 1763941175717.2603,
+      "uuid": "f090a539-36de-4cc9-a65e-ff74045a7963"
+    },
+    "core/gui/base/UIViewState.ts": {
+      "time": 1764185243595.766,
+      "uuid": "b959c9e8-25a5-4490-ab2b-3302222e5b01"
+    },
+    "script/game/common/UIManifest.ts": {
+      "time": 1764625627632.627,
+      "uuid": "23a6df37-ca20-41e6-aa46-c408c77a21ea"
+    },
+    "core/common/loader.meta": {
+      "time": 1763906801418.8044
+    },
+    "core/common/loader/ResManager.ts.meta": {
+      "time": 1763906801420.1824
+    },
+    "core/common/loader": {
+      "time": 1763906801411.8594,
+      "uuid": "c26de9ab-6819-48cb-9d5d-ce530e873613"
+    },
+    "core/common/loader/ResManager.ts": {
+      "time": 1764638814304.0437,
+      "uuid": "e1013138-901c-456b-9b56-fc092b8e0345"
+    },
+    "resources/game_config.json.meta": {
+      "time": 1763913697760.3364
+    },
+    "core/common/utils.meta": {
+      "time": 1763913697754.0452
+    },
+    "core/common/utils/utils.ts.meta": {
+      "time": 1763913697755.5034
+    },
+    "core/common/utils": {
+      "time": 1763913697751.2747,
+      "uuid": "01fcb2b5-2d4f-4eb9-8a3e-35385053ae8e"
+    },
+    "core/common/utils/utils.ts": {
+      "time": 1764638812208.8164,
+      "uuid": "3307a66f-c8f8-4922-abaa-4d44f0438202"
+    },
+    "resources/game_config.json": {
+      "time": 1763907685449.234,
+      "uuid": "4a059746-0574-45c0-9161-c962196a2ae2"
+    },
+    "core/gui/base/UICompBase.ts.meta": {
+      "time": 1763942380880.8438
+    },
+    "core/gui/base/UICompBase.ts": {
+      "time": 1764636807753.6167,
+      "uuid": "9a47df24-0344-4912-bf56-d4a1fdd8c0cc"
+    },
+    "resources/gui/loading/loadingUI.prefab.meta": {
+      "time": 1763955093662.5972
+    },
+    "resources/gui/loading/loadingUI.prefab": {
+      "time": 1764019208436.0142,
+      "uuid": "3d713da0-e05e-438f-b169-43c37970b541"
+    },
+    "script/game/mainui.meta": {
+      "time": 1764018972884.7373
+    },
+    "script/game/mainui": {
+      "time": 1764019044976.0024,
+      "uuid": "30220800-c9c6-4d6c-aba9-3c29d5f8db32"
+    },
+    "script/game/mainui/MainuiComp.ts.meta": {
+      "time": 1764019044977.9993
+    },
+    "script/game/mainui/MainuiComp.ts": {
+      "time": 1764090576123.2637,
+      "uuid": "47db35f0-7151-4660-8705-e34cd14e0722"
     }
   },
   "missing": {}

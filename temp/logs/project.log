@@ -1,217 +1,128 @@
-11-19-2025 23:54:30 - log: Load engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine
-11-19-2025 23:54:30 - log: Register native engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-11-19-2025 23:54:30 - log: Request namespace: device-list
-11-19-2025 23:54:34 - log: [Scene] meshopt wasm decoder initialized
-11-19-2025 23:54:34 - log: [Scene] [box2d]:box2d wasm lib loaded.
-11-19-2025 23:54:34 - log: [Scene] [bullet]:bullet wasm lib loaded.
-11-19-2025 23:54:34 - log: [Scene] [PHYSICS]: using builtin.
-11-19-2025 23:54:34 - log: [Scene] Cocos Creator v3.8.7
-11-19-2025 23:54:34 - log: [Scene] Using custom pipeline: Builtin
-11-19-2025 23:54:34 - log: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 06:27:48 - warn: [Assets] Input file contains unsupported image formatError: Input file contains unsupported image format
-11-20-2025 06:27:48 - warn: [Assets] resizeThumbnail failed for db://assets/resources/gui/loading/texture/bg_1.png@f9941Warn: [Assets] resizeThumbnail failed for db://assets/resources/gui/loading/texture/bg_1.png@f9941
+11-26-2025 17:19:56 - log: Load engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine
+11-26-2025 17:19:56 - log: Register native engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+11-26-2025 17:19:56 - log: Request namespace: device-list
+11-26-2025 17:20:00 - info: [PreviewInEditor] 预览环境初始化完毕
+11-26-2025 17:20:01 - log: [Scene] meshopt wasm decoder initialized
+11-26-2025 17:20:01 - log: [Scene] [bullet]:bullet wasm lib loaded.
+11-26-2025 17:20:01 - log: [Scene] [box2d]:box2d wasm lib loaded.
+11-26-2025 17:20:01 - log: [Scene] [PHYSICS]: using builtin.
+11-26-2025 17:20:01 - log: [Scene] Cocos Creator v3.8.7
+11-26-2025 17:20:01 - log: [Scene] Using custom pipeline: Builtin
+11-26-2025 17:20:01 - log: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+12-3-2025 02:34:07 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 在加载模块文件 /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts'
+    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6b/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fmichael%2FDesktop%2Fgitfiles%2Fcoscos_oop_frame_wrok%2Fassets%2Fcore%2Fcommon%2Fenum%2Futils.ts%20at%20runtime.%0Athrow%20new%20Error(%60Error%3A%20%E5%9C%A8%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9D%97%E6%96%87%E4%BB%B6%20%2FUsers%2Fmichael%2FDesktop%2Fgitfiles%2Fcoscos_oop_frame_wrok%2Fassets%2Fcore%2Fcommon%2Fenum%2Futils.ts%20%E6%97%B6%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%EF%BC%9AError%3A%20ENOENT%3A%20no%20such%20file%20or%20directory%2C%20open%20'%2FUsers%2Fmichael%2FDesktop%2Fgitfiles%2Fcoscos_oop_frame_wrok%2Fassets%2Fcore%2Fcommon%2Fenum%2Futils.ts'%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
+    at doExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
+    at Executor.reload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1893
+    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2290)
+    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2061)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 在加载模块文件 /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts'
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
+    at Executor.reload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1893
+    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2290)
+    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2061)
+    at Logger._logHandler (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:487)
+    at Logger.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at console.error (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
+    at ScriptManager._handleImportException (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5678)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3834)
+    at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:401:22)
+    at SystemJS.onload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:99:18)
+    at triggerOnload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
+    at Array.forEach (<anonymous>)
+    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
+    at Executor.reload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1893
+    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2290)
+    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2061)
+12-3-2025 02:34:07 - warn: [Scene] Missing class: 60646LwlrJEdY8GHc/PKYHnError: [Scene] Missing class: 60646LwlrJEdY8GHc/PKYHn
     at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
-    at NewConsole.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1637)
-    at AssetHandlerManager.generateThumbnail (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/manager/asset-handler-manager.ccc:1:10655)
-    at Ipc.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/ipc.ccc:1:555)
-11-20-2025 08:29:11 - warn: [Window] data in node dump (__comps__.0.contentSize height) is null!Error: [Window] data in node dump (__comps__.0.contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:29:11 - warn: [Window] data in node dump (__comps__.0._contentSize height) is null!Error: [Window] data in node dump (__comps__.0._contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:30:50 - warn: [Window] data in node dump (__comps__.0.contentSize height) is null!Error: [Window] data in node dump (__comps__.0.contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:30:50 - warn: [Window] data in node dump (__comps__.0._contentSize height) is null!Error: [Window] data in node dump (__comps__.0._contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:30:50 - warn: [Window] data in node dump (__comps__.0.contentSize height) is null!Error: [Window] data in node dump (__comps__.0.contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:30:50 - warn: [Window] data in node dump (__comps__.0._contentSize height) is null!Error: [Window] data in node dump (__comps__.0._contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:30:51 - warn: [Window] data in node dump (__comps__.0.contentSize height) is null!Error: [Window] data in node dump (__comps__.0.contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 08:30:51 - warn: [Window] data in node dump (__comps__.0._contentSize height) is null!Error: [Window] data in node dump (__comps__.0._contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 18:21:49 - warn: [Window] data in node dump (__comps__.0.contentSize height) is null!Error: [Window] data in node dump (__comps__.0.contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 18:21:49 - warn: [Window] data in node dump (__comps__.0._contentSize height) is null!Error: [Window] data in node dump (__comps__.0._contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 19:55:40 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 19:55:41 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 19:55:41 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 19:55:41 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 19:55:41 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 19:55:41 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 19:55:41 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 19:55:41 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 19:56:20 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 20:32:42 - warn: [Window] data in node dump (__comps__.0.contentSize height) is null!Error: [Window] data in node dump (__comps__.0.contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 20:32:42 - warn: [Window] data in node dump (__comps__.0._contentSize height) is null!Error: [Window] data in node dump (__comps__.0._contentSize height) is null!
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/build/cjs/utils-hoist/instrument/console.js:38:14)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:38:21)
-    at translate (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:78:13)
-    at Object.translationDump (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/utils.js:176:13)
-    at Object.update (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:643:23)
-    at async Object.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/inspector/contributions/node.js:501:25)
-11-20-2025 21:20:12 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:20:12 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:20:12 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:20:12 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:20:12 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:20:12 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:20:12 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:20:25 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 21:20:47 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:20:47 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:20:47 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:20:47 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:20:47 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:20:47 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:20:47 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:20:59 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 21:36:54 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:36:54 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:36:54 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:36:54 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:36:54 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:36:54 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:36:54 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:37:06 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1464)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-11-20-2025 21:37:06 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 21:38:12 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:38:12 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:38:12 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:38:12 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:38:12 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:38:12 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:38:12 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:38:29 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 21:39:23 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:39:23 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:39:23 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:39:23 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:39:23 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:39:23 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:39:23 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:42:34 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1464)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-11-20-2025 21:42:34 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 21:52:41 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:52:41 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:52:41 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:52:41 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:52:41 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:52:41 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:52:41 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:53:04 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1464)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-11-20-2025 21:53:04 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 21:55:09 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 21:55:09 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 21:55:09 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 21:55:09 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 21:55:09 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 21:55:09 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 21:55:09 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 21:55:16 - info: [PreviewInEditor] 预览环境初始化完毕
-11-20-2025 22:13:43 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-20-2025 22:13:43 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-20-2025 22:13:43 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-20-2025 22:13:43 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-20-2025 22:13:43 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-20-2025 22:13:43 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-20-2025 22:13:43 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-20-2025 22:13:49 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1464)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-11-20-2025 22:13:49 - info: [PreviewInEditor] 预览环境初始化完毕
-11-21-2025 03:32:02 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-21-2025 03:32:02 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-21-2025 03:32:02 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-21-2025 03:32:02 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-21-2025 03:32:02 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-21-2025 03:32:02 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-21-2025 03:32:02 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-21-2025 03:32:06 - error: (node:89243) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 render-view-deleted listeners added to [WebContents]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-(Use `CocosCreator --trace-warnings ...` to show where the warning was created)
-11-21-2025 03:32:06 - error: (node:89243) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 new-window listeners added to [WebContents]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
-11-21-2025 03:32:06 - warn: [PreviewInEditor] IPC message has been lost.Error: [PreviewInEditor] IPC message has been lost.
-    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
-    at IpcRenderer.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/ipc/web/webview.ccc:1:1464)
-    at IpcRenderer.emit (node:events:519:28)
-    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
-11-21-2025 03:32:06 - info: [PreviewInEditor] 预览环境初始化完毕
-11-21-2025 03:32:09 - log: [PreviewInEditor] meshopt wasm decoder initialized
-11-21-2025 03:32:09 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-11-21-2025 03:32:09 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-11-21-2025 03:32:09 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-11-21-2025 03:32:09 - log: [PreviewInEditor] Cocos Creator v3.8.7
-11-21-2025 03:32:09 - log: [PreviewInEditor] Using custom pipeline: Builtin
-11-21-2025 03:32:09 - log: [PreviewInEditor] [PHYSICS2D]: switch from builtin to box2d.
-11-21-2025 03:32:28 - info: [PreviewInEditor] 预览环境初始化完毕
+    at Object.classFinder (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:7:982)
+    at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:118488:34)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76908:30)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76862:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77029:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76890:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76868:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77041:36)
+    at eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76630:15)
+    at _Deserializer._deserializeFireClass (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77012:11)
+    at _Deserializer._deserializeInto (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76954:18)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76926:18)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76862:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77029:38)
+    at _Deserializer._deserializeArray (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76890:40)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76868:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77041:36)
+    at eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76630:15)
+    at _Deserializer._deserializeFireClass (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77012:11)
+    at _Deserializer._deserializeInto (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76954:18)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76926:18)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76862:29)
+    at _Deserializer._deserializeAndAssignField (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77029:38)
+    at eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76630:15)
+    at _Deserializer._deserializeFireClass (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77012:11)
+    at _Deserializer._deserializeInto (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76954:18)
+    at _Deserializer._deserializeTypeTaggedObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76926:18)
+    at _Deserializer._deserializeObject (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76862:29)
+    at _Deserializer.deserialize (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76834:42)
+    at deserializeDynamic (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:76684:30)
+    at deserialize (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:77500:13)
+    at deserializeAsset (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:118501:15)
+    at parseImport (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119967:22)
+    at Parser.parse (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:120050:11)
+    at parse (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119543:20)
+    at Pipeline._flow (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121458:11)
+    at eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121468:22)
+    at fetch (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119478:11)
+    at Pipeline._flow (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121458:11)
+    at Pipeline.async (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121454:16)
+    at options.__exclude__ (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119322:28)
+    at forEach (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:122172:7)
+    at load (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119299:5)
+    at Pipeline._flow (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121458:11)
+    at Pipeline.async (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121454:16)
+    at AssetManager.loadWithJson (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:115013:31)
+12-3-2025 02:34:07 - error: [Scene] Script "60646LwlrJEdY8GHc/PKYHn" attached to "root" is missing or invalid. Detailed information:
+Node path: "root"
+Script UUID: "606462f0-96b2-4475-8f06-1dcfcf2981e7"
+Class ID: "60646LwlrJEdY8GHc/PKYHn"
+Error: [Scene] Script "60646LwlrJEdY8GHc/PKYHn" attached to "root" is missing or invalid. Detailed information:
+Node path: "root"
+Script UUID: "606462f0-96b2-4475-8f06-1dcfcf2981e7"
+Class ID: "60646LwlrJEdY8GHc/PKYHn"
+
+    at console.error (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
+    at report (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:7:25)
+    at reportByWalker (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:7:127)
