@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7", "__unresolved_8", "__unresolved_9"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, Node, Camera, LayerContainerType, LayerType, enumEntries, UIGameLayerNode, uiConfigRegistry, Fwk, UILayerNodeBase, UISingletonLayerNode, UIMultiLayerNode, UIViewState, UIMgr, _crd, layerMap;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, Node, Camera, LayerContainerType, LayerType, utils, UIGameLayerNode, uiConfigRegistry, Fwk, UILayerNodeBase, UISingletonLayerNode, UIMultiLayerNode, UIViewState, UIMgr, _crd, layerMap;
 
   function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -15,8 +15,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
     _reporterNs.report("LayerType", "../common/enum/ui-layer.enum", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfenumEntries(extras) {
-    _reporterNs.report("enumEntries", "../common/enum/utils", _context.meta, extras);
+  function _reportPossibleCrUseOfutils(extras) {
+    _reporterNs.report("utils", "../common/utils/utils", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfUIGameLayerNode(extras) {
@@ -74,7 +74,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       LayerContainerType = _unresolved_2.LayerContainerType;
       LayerType = _unresolved_2.LayerType;
     }, function (_unresolved_3) {
-      enumEntries = _unresolved_3.enumEntries;
+      utils = _unresolved_3.utils;
     }, function (_unresolved_4) {
       UIGameLayerNode = _unresolved_4.UIGameLayerNode;
     }, function (_unresolved_5) {
@@ -147,9 +147,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           this.uiRoot = uiRoot;
           this.uiCamera = this.uiRoot.getComponentInChildren(Camera); // 按枚举值升序排序后遍历
 
-          var layerEntries = (_crd && enumEntries === void 0 ? (_reportPossibleCrUseOfenumEntries({
+          var layerEntries = (_crd && utils === void 0 ? (_reportPossibleCrUseOfutils({
             error: Error()
-          }), enumEntries) : enumEntries)(_crd && LayerType === void 0 ? (_reportPossibleCrUseOfLayerType({
+          }), utils) : utils).enumEntries(_crd && LayerType === void 0 ? (_reportPossibleCrUseOfLayerType({
             error: Error()
           }), LayerType) : LayerType).sort((a, b) => Number(a[1]) - Number(b[1]));
 

@@ -31,9 +31,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       __checkObsolete__(['__private', 'Asset', 'assetManager', 'AssetManager', 'resources']);
 
-      /**
-       * 资源操作选项
-       */
+      // 补充类型声明
+
+      /** 加载普通资源的参数 */
+
+      /** 加载目录资源的参数 */
 
       /**
        * 资源管理器
@@ -46,29 +48,108 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         /**
          * 加载资源
-         * @param options 加载选项
+         * @param args IResArgs 参数
          */
-        load(options) {
+        load(args) {
           var _this = this;
 
           return _asyncToGenerator(function* () {
-            var bundleName = options.bundleName || _this.defaultBundleName;
+            var bundleName = args.bundle || _this.defaultBundleName;
             var bundle = yield _this.ensureBundle(bundleName);
-            var path = options.path;
-            var type = options.type;
-            var assetPromise = new Promise((resolve, reject) => {
-              bundle.load(path, type, (err, asset) => {
+            return new Promise((resolve, reject) => {
+              bundle.load(args.paths, args.type, args.onProgress, (err, assets) => {
                 if (err) {
                   reject(err);
                   (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
                     error: Error()
-                  }), Fwk) : Fwk).log.error("ResManager: \u8D44\u6E90\u52A0\u8F7D\u5931\u8D25 - Bundle: " + bundleName + ", Path: " + path + ", Error: " + err.message);
+                  }), Fwk) : Fwk).log.error("ResManager: \u8D44\u6E90\u52A0\u8F7D\u5931\u8D25 - Bundle: " + bundleName + ", Paths: " + JSON.stringify(args.paths) + ", Error: " + err.message);
                 } else {
-                  resolve(asset);
+                  resolve(assets);
+                  args.onComplete == null || args.onComplete(null, assets);
                 }
               });
             });
-            return assetPromise;
+          })();
+        }
+        /**
+         * 预加载资源
+         * @param args IResArgs 参数
+         */
+
+
+        preload(args) {
+          var _this2 = this;
+
+          return _asyncToGenerator(function* () {
+            var bundleName = args.bundle || _this2.defaultBundleName;
+            var bundle = yield _this2.ensureBundle(bundleName);
+            return new Promise((resolve, reject) => {
+              bundle.preload(args.paths, args.type, args.onProgress, err => {
+                if (err) {
+                  reject(err);
+                  (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
+                    error: Error()
+                  }), Fwk) : Fwk).log.error("ResManager: \u8D44\u6E90\u9884\u52A0\u8F7D\u5931\u8D25 - Bundle: " + bundleName + ", Paths: " + JSON.stringify(args.paths) + ", Error: " + err.message);
+                } else {
+                  resolve();
+                  args.onComplete == null || args.onComplete(null, null);
+                }
+              });
+            });
+          })();
+        }
+        /**
+         * 加载目录资源
+         * @param args IResDirArgs 参数
+         */
+
+
+        loadDir(args) {
+          var _this3 = this;
+
+          return _asyncToGenerator(function* () {
+            var bundleName = args.bundle || _this3.defaultBundleName;
+            var bundle = yield _this3.ensureBundle(bundleName);
+            return new Promise((resolve, reject) => {
+              bundle.loadDir(args.dir, args.type, args.onProgress, (err, assets) => {
+                if (err) {
+                  reject(err);
+                  (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
+                    error: Error()
+                  }), Fwk) : Fwk).log.error("ResManager: \u76EE\u5F55\u8D44\u6E90\u52A0\u8F7D\u5931\u8D25 - Bundle: " + bundleName + ", Dir: " + args.dir + ", Error: " + err.message);
+                } else {
+                  resolve(assets);
+                  args.onComplete == null || args.onComplete(null, assets);
+                }
+              });
+            });
+          })();
+        }
+        /**
+         * 预加载目录资源
+         * @param args IResDirArgs 参数
+         */
+
+
+        preloadDir(args) {
+          var _this4 = this;
+
+          return _asyncToGenerator(function* () {
+            var bundleName = args.bundle || _this4.defaultBundleName;
+            var bundle = yield _this4.ensureBundle(bundleName);
+            return new Promise((resolve, reject) => {
+              bundle.preloadDir(args.dir, args.type, args.onProgress, err => {
+                if (err) {
+                  reject(err);
+                  (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
+                    error: Error()
+                  }), Fwk) : Fwk).log.error("ResManager: \u76EE\u5F55\u8D44\u6E90\u9884\u52A0\u8F7D\u5931\u8D25 - Bundle: " + bundleName + ", Dir: " + args.dir + ", Error: " + err.message);
+                } else {
+                  resolve();
+                  args.onComplete == null || args.onComplete(null, null);
+                }
+              });
+            });
           })();
         }
         /**
@@ -114,13 +195,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
 
         ensureBundle(name) {
-          var _this2 = this;
+          var _this5 = this;
 
           return _asyncToGenerator(function* () {
             var bundle = assetManager.bundles.get(name);
 
             if (!bundle) {
-              bundle = yield _this2.loadBundle(name);
+              bundle = yield _this5.loadBundle(name);
             }
 
             return bundle;
@@ -128,20 +209,44 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
         /**
          * 释放资源
-         * @param options 释放选项
+         * @param args 释放选项
          */
 
 
-        release(options) {
-          var bundleName = options.bundleName || this.defaultBundleName;
+        release(args) {
+          var bundleName = args.bundle || this.defaultBundleName;
+          var bundle = assetManager.getBundle(bundleName);
+          var path = args.paths;
+
+          if (bundle) {
+            if (Array.isArray(path)) {
+              path.forEach(p => {
+                var asset = bundle.get(p);
+                if (asset) asset.decRef();
+              });
+            } else {
+              var _asset = bundle.get(path);
+
+              if (_asset) _asset.decRef();
+            }
+          }
+        }
+        /**
+         * 释放目录资源
+         * @param args 释放选项
+         */
+
+
+        releaseDir(args) {
+          var bundleName = args.bundle || this.defaultBundleName;
           var bundle = assetManager.getBundle(bundleName);
 
           if (bundle) {
-            var asset = bundle.get(options.path);
-
-            if (asset) {
-              asset.decRef();
-            }
+            var infos = bundle.getDirWithPath(args.dir);
+            infos.forEach(info => {
+              var asset = bundle.get(info.path, args.type);
+              if (asset) asset.decRef();
+            });
           }
         }
 

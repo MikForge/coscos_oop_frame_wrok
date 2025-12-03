@@ -136,7 +136,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             var jsonInfo = yield (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
               error: Error()
             }), Fwk) : Fwk).resMgr.load({
-              path: config_name,
+              paths: config_name,
               type: JsonAsset
             });
 

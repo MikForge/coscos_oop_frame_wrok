@@ -131,9 +131,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             const res = await (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
               error: Error()
             }), Fwk) : Fwk).resMgr.load({
-              path: uiInfo.config.prefab,
+              paths: uiInfo.config.prefab,
               type: Prefab,
-              bundleName: uiInfo.config.bundle
+              bundle: uiInfo.config.bundle
             });
 
             if (res) {
@@ -197,8 +197,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
             error: Error()
           }), Fwk) : Fwk).resMgr.release({
-            path: uiInfo.config.prefab,
-            bundleName: uiInfo.config.bundle
+            paths: uiInfo.config.prefab,
+            bundle: uiInfo.config.bundle,
+            type: Prefab
           });
           (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
             error: Error()

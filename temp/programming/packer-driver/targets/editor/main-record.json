@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 4559.143875,
+      "mTimestamp": 3648.629792,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -997,7 +997,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 551651828.144292,
+      "mTimestamp": 120517.987667,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1391,6 +1391,90 @@
               "column": 3551
             }
           }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkManager.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3567
+            },
+            "end": {
+              "line": 5,
+              "column": 3661
+            }
+          }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkTypes.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3677
+            },
+            "end": {
+              "line": 5,
+              "column": 3769
+            }
+          }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/base/ISdkPlatform.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3785
+            },
+            "end": {
+              "line": 5,
+              "column": 3886
+            }
+          }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/NativeSdkPlatform.ts",
+          "resolved": "__unresolved_31",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 3902
+            },
+            "end": {
+              "line": 5,
+              "column": 4012
+            }
+          }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WebSdkPlatform.ts",
+          "resolved": "__unresolved_32",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4028
+            },
+            "end": {
+              "line": 5,
+              "column": 4135
+            }
+          }
+        },
+        {
+          "value": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WxMiniSdkPlatform.ts",
+          "resolved": "__unresolved_33",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 4151
+            },
+            "end": {
+              "line": 5,
+              "column": 4261
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1588,6 +1672,48 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/game/mainui/MainuiComp.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkTypes.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/base/ISdkPlatform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/NativeSdkPlatform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WebSdkPlatform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WxMiniSdkPlatform.ts"
           },
           "messages": []
         }
@@ -2155,19 +2281,12 @@
         }
       ]
     },
-    "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1764148796278,
-      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
-      "imports": [],
-      "type": "esm",
-      "resolutions": []
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts": {
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts": {
       "mTimestamp": {
-        "mtime": 1764022200936.0586,
-        "uuid": "606462f0-96b2-4475-8f06-1dcfcf2981e7"
+        "mtime": 1764636809348.9668,
+        "uuid": "36eaf9f2-032a-441b-bdd5-c4a0036c65a8"
       },
-      "chunkId": "4087735f30bcc22a259586fa376b89c453246e0e",
+      "chunkId": "a4fecbbd4020cec2c40d07d51a77c2da4e925e47",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2177,73 +2296,16 @@
           "value": "cc"
         },
         {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 54
-            },
-            "end": {
-              "line": 1,
-              "column": 58
-            }
-          }
-        },
-        {
-          "value": "../core/Root",
+          "value": "./common/log/Logger",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
               "line": 2,
-              "column": 21
+              "column": 23
             },
             "end": {
               "line": 2,
-              "column": 35
-            }
-          }
-        },
-        {
-          "value": "cc/env",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 22
-            },
-            "end": {
-              "line": 3,
-              "column": 30
-            }
-          }
-        },
-        {
-          "value": "../core/Fwks",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 20
-            },
-            "end": {
-              "line": 4,
-              "column": 34
-            }
-          }
-        },
-        {
-          "value": "./game/common/UIManifest",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 36
-            },
-            "end": {
-              "line": 5,
-              "column": 62
+              "column": 44
             }
           }
         }
@@ -2267,42 +2329,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "external",
-            "specifierOrURL": "cc/env"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/game/common/UIManifest.ts"
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/log/Logger.ts"
           },
           "messages": []
         }
@@ -2310,7 +2337,7 @@
     },
     "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts": {
       "mTimestamp": {
-        "mtime": 1764638089281.9507,
+        "mtime": 1764799186664.184,
         "uuid": "c9f431a8-c954-4d0a-8661-79b743281fa9"
       },
       "chunkId": "4e48cf005590e51c491cfce0670b30a7ec4192b6",
@@ -2434,60 +2461,6 @@
         }
       ]
     },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts": {
-      "mTimestamp": {
-        "mtime": 1764636809348.9668,
-        "uuid": "36eaf9f2-032a-441b-bdd5-c4a0036c65a8"
-      },
-      "chunkId": "a4fecbbd4020cec2c40d07d51a77c2da4e925e47",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "./common/log/Logger",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 23
-            },
-            "end": {
-              "line": 2,
-              "column": 44
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/log/Logger.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
     "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/ui-layer.enum.ts": {
       "mTimestamp": {
         "mtime": 1763942799374.0552,
@@ -2510,12 +2483,12 @@
         }
       ]
     },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerMgr.ts": {
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/loader/ResManager.ts": {
       "mTimestamp": {
-        "mtime": 1763767901309.0383,
-        "uuid": "56e3fd69-c355-4b06-9792-5b56597cba44"
+        "mtime": 1764785508582.4434,
+        "uuid": "e1013138-901c-456b-9b56-fc092b8e0345"
       },
-      "chunkId": "6748b0f2c11455354ae0831f62e8327da7c25355",
+      "chunkId": "3cf24c64189021a875b85629fcb30e72364d7717",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2531,82 +2504,26 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 2,
-              "column": 29
+              "line": 4,
+              "column": 72
             },
             "end": {
-              "line": 2,
-              "column": 33
+              "line": 4,
+              "column": 76
             }
           }
         },
         {
-          "value": "../../common/enum/ui-layer.enum",
+          "value": "../../Fwks",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 34
-            },
-            "end": {
-              "line": 3,
-              "column": 67
-            }
-          }
-        },
-        {
-          "value": "../../common/enum/utils",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 28
-            },
-            "end": {
-              "line": 4,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "./LayerUIGameNode",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
               "line": 6,
-              "column": 32
+              "column": 20
             },
             "end": {
               "line": 6,
-              "column": 51
-            }
-          }
-        },
-        {
-          "value": "./LayerUISceneNode",
-          "resolved": "__unresolved_4",
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 33
-            },
-            "end": {
-              "line": 7,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "./LayerUIPopUpNode",
-          "resolved": "__unresolved_5",
-          "loc": {
-            "start": {
-              "line": 8,
-              "column": 33
-            },
-            "end": {
-              "line": 8,
-              "column": 53
+              "column": 32
             }
           }
         }
@@ -2644,35 +2561,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/ui-layer.enum.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerUIGameNode.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerUISceneNode.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerUIPopUpNode.ts"
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
           },
           "messages": []
         }
@@ -2680,7 +2569,7 @@
     },
     "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/log/Logger.ts": {
       "mTimestamp": {
-        "mtime": 1764021066004.9983,
+        "mtime": 1764791368934.329,
         "uuid": "f6c8efa8-cf3b-4863-8ddd-95f01c302a95"
       },
       "chunkId": "6177c2d7f77644997993211bd4fe28d8b376d4b5",
@@ -2730,12 +2619,12 @@
         }
       ]
     },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/UIMgr.ts": {
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/utils/utils.ts": {
       "mTimestamp": {
-        "mtime": 1763763908864.5457,
-        "uuid": "12b826e6-6d86-4671-a0c5-bc61d73b23f2"
+        "mtime": 1764799173486.2932,
+        "uuid": "3307a66f-c8f8-4922-abaa-4d44f0438202"
       },
-      "chunkId": "963ee58f8eb26cffb3d6ef9be3f3b929a2f05034",
+      "chunkId": "72fc194729d99ba66ea1ce706809fdbcc5f58895",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2745,47 +2634,16 @@
           "value": "cc"
         },
         {
-          "value": "cc"
-        },
-        {
-          "value": "../../common/enum/ui-layer.enum",
+          "value": "../enum/ui-layer.enum",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
-              "column": 37
+              "line": 1,
+              "column": 26
             },
             "end": {
-              "line": 3,
-              "column": 70
-            }
-          }
-        },
-        {
-          "value": "../../common/enum/utils",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 28
-            },
-            "end": {
-              "line": 4,
-              "column": 53
-            }
-          }
-        },
-        {
-          "value": "../../Fwks",
-          "resolved": "__unresolved_3",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 20
-            },
-            "end": {
-              "line": 5,
-              "column": 32
+              "line": 1,
+              "column": 49
             }
           }
         }
@@ -2796,13 +2654,6 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
           },
           "messages": []
         },
@@ -2819,141 +2670,77 @@
             "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/ui-layer.enum.ts"
           },
           "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIConfigRegistry.ts": {
+      "mTimestamp": {
+        "mtime": 1763948000552.313,
+        "uuid": "742c392b-a44a-423c-92d9-59849e178b4f"
+      },
+      "chunkId": "a448e66c195ece0dc35ced696650a6bde4f04a46",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
         },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }
       ]
     },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts": {
-      "erroneous": true,
-      "mTimestamp": 0,
-      "chunkId": "6ba7c7a2b1bccda187a986097083cae1bd2682e7"
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerHelper.ts": {
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIDecorator.ts": {
       "mTimestamp": {
-        "mtime": 1763767844980.9097,
-        "uuid": "49a9608b-4d60-4b03-a95d-bfd056911ba8"
+        "mtime": 1763943029313.6514,
+        "uuid": "9328f489-a0bc-44d3-9f76-aef8db8cc694"
       },
-      "chunkId": "e5d2e739205213957d330cd47bad07f6bf4a102b",
+      "chunkId": "928707bfc81d148d9e773d56d5ee29690e22e605",
       "imports": [
         {
-          "value": "cc"
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
         },
         {
           "value": "cc"
         },
         {
-          "value": "cc",
+          "value": "./UIConfigRegistry",
+          "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 1,
-              "column": 23
-            },
-            "end": {
-              "line": 1,
-              "column": 27
-            }
-          }
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 29
-            },
-            "end": {
-              "line": 2,
+              "line": 9,
               "column": 33
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerUIGameNode.ts": {
-      "mTimestamp": {
-        "mtime": 1763767899279.3706,
-        "uuid": "e86d3c5f-da8c-4cdb-8cd1-03970dfcd42b"
-      },
-      "chunkId": "6bf301c2e5d0d17650b5d10ab6b484bf6443d649",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 21
             },
             "end": {
-              "line": 1,
-              "column": 25
-            }
-          }
-        },
-        {
-          "value": "./LayerHelper",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 28
-            },
-            "end": {
-              "line": 2,
-              "column": 43
+              "line": 9,
+              "column": 53
             }
           }
         }
@@ -2977,189 +2764,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerHelper.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerUIPopUpNode.ts": {
-      "mTimestamp": {
-        "mtime": 1763767910607.2146,
-        "uuid": "f2b7bba1-e36d-432f-9328-c4573d358d29"
-      },
-      "chunkId": "6f968e52d07d2105655742495c05bd304aa0e1d7",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 21
-            },
-            "end": {
-              "line": 1,
-              "column": 25
-            }
-          }
-        },
-        {
-          "value": "./LayerHelper",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 28
-            },
-            "end": {
-              "line": 2,
-              "column": 43
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerHelper.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerUISceneNode.ts": {
-      "mTimestamp": {
-        "mtime": 1763767877649.3828,
-        "uuid": "ebf0966d-e3d4-4b26-9754-daa016de50ee"
-      },
-      "chunkId": "6423fb95e841e7da526cebe8fc8890aadefad1ab",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 21
-            },
-            "end": {
-              "line": 1,
-              "column": 25
-            }
-          }
-        },
-        {
-          "value": "./LayerHelper",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 28
-            },
-            "end": {
-              "line": 2,
-              "column": 43
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/LayerHelper.ts"
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIConfigRegistry.ts"
           },
           "messages": []
         }
@@ -3239,7 +2844,7 @@
     },
     "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIMgr.ts": {
       "mTimestamp": {
-        "mtime": 1764022581909.3062,
+        "mtime": 1764799553423.8855,
         "uuid": "9b076f6d-02aa-4112-9a82-4a76de6c907a"
       },
       "chunkId": "85a87f18dea8abaefe31485aef89ff9a1ab3ea8e",
@@ -3282,16 +2887,16 @@
           }
         },
         {
-          "value": "../common/enum/utils",
+          "value": "../common/utils/utils",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
               "line": 4,
-              "column": 28
+              "column": 22
             },
             "end": {
               "line": 4,
-              "column": 50
+              "column": 45
             }
           }
         },
@@ -3434,7 +3039,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts"
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/utils/utils.ts"
           },
           "messages": []
         },
@@ -3484,6 +3089,471 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UIViewState.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UICompBase.ts": {
+      "mTimestamp": {
+        "mtime": 1764790502742.6904,
+        "uuid": "9a47df24-0344-4912-bf56-d4a1fdd8c0cc"
+      },
+      "chunkId": "e5ed0fbce9cc47d7207c89eb5ce4df01e9187d2e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UILayerNodeBase.ts": {
+      "mTimestamp": {
+        "mtime": 1764782217286.2356,
+        "uuid": "0b436ef6-cd6b-4993-83a1-355caae9c535"
+      },
+      "chunkId": "fc33b3afa35f7973786928d3418821b70c1f672b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 42
+            },
+            "end": {
+              "line": 21,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "../UIHelper",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 25
+            },
+            "end": {
+              "line": 22,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "../layer/UIElementComponent",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 35
+            },
+            "end": {
+              "line": 24,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "../../Fwks",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 20
+            },
+            "end": {
+              "line": 25,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIHelper.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/UIElementComponent.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UIMultiLayerNode.ts": {
+      "mTimestamp": {
+        "mtime": 1764782196896.367,
+        "uuid": "8dcfe6f8-5944-4892-8f43-900657a82a02"
+      },
+      "chunkId": "849caca0c61995c809210c240377cf2b058f9d90",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./UILayerNodeBase",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UILayerNodeBase.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UISingletonLayerNode.ts": {
+      "mTimestamp": {
+        "mtime": 1764782203204.3843,
+        "uuid": "f090a539-36de-4cc9-a65e-ff74045a7963"
+      },
+      "chunkId": "bbded175c3f304266b65c9568d3e1556a2af49ec",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../base/UILayerNodeBase",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "../../Fwks",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 20
+            },
+            "end": {
+              "line": 5,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UILayerNodeBase.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UIViewState.ts": {
+      "mTimestamp": {
+        "mtime": 1764185243595.766,
+        "uuid": "b959c9e8-25a5-4490-ab2b-3302222e5b01"
+      },
+      "chunkId": "4c4db222dd8015ec5a1f9eef7341ae6ee9b1323b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/UIElementComponent.ts": {
+      "mTimestamp": {
+        "mtime": 1764636682389.1824,
+        "uuid": "a85f55cf-7299-4438-ac5d-1ae70596692f"
+      },
+      "chunkId": "fedc2da85d511d57ec2567dba7a5dae191437b6d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 54
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "../base/UICompBase",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 32
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UICompBase.ts"
           },
           "messages": []
         }
@@ -3681,12 +3751,12 @@
         }
       ]
     },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/UIElementComponent.ts": {
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/Main.ts": {
       "mTimestamp": {
-        "mtime": 1764636682389.1824,
-        "uuid": "a85f55cf-7299-4438-ac5d-1ae70596692f"
+        "mtime": 1764022200936.0586,
+        "uuid": "606462f0-96b2-4475-8f06-1dcfcf2981e7"
       },
-      "chunkId": "fedc2da85d511d57ec2567dba7a5dae191437b6d",
+      "chunkId": "4087735f30bcc22a259586fa376b89c453246e0e",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -3712,225 +3782,57 @@
           }
         },
         {
-          "value": "../base/UICompBase",
+          "value": "../core/Root",
           "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 21
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "cc/env",
           "loc": {
             "start": {
               "line": 3,
-              "column": 32
+              "column": 22
             },
             "end": {
               "line": 3,
-              "column": 52
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UICompBase.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIConfigRegistry.ts": {
-      "mTimestamp": {
-        "mtime": 1763948000552.313,
-        "uuid": "742c392b-a44a-423c-92d9-59849e178b4f"
-      },
-      "chunkId": "a448e66c195ece0dc35ced696650a6bde4f04a46",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIDecorator.ts": {
-      "mTimestamp": {
-        "mtime": 1763943029313.6514,
-        "uuid": "9328f489-a0bc-44d3-9f76-aef8db8cc694"
-      },
-      "chunkId": "928707bfc81d148d9e773d56d5ee29690e22e605",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "./UIConfigRegistry",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 9,
-              "column": 33
-            },
-            "end": {
-              "line": 9,
-              "column": 53
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIConfigRegistry.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UILayerNodeBase.ts": {
-      "mTimestamp": {
-        "mtime": 1764638581698.233,
-        "uuid": "0b436ef6-cd6b-4993-83a1-355caae9c535"
-      },
-      "chunkId": "fc33b3afa35f7973786928d3418821b70c1f672b",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 21,
-              "column": 42
-            },
-            "end": {
-              "line": 21,
-              "column": 46
+              "column": 30
             }
           }
         },
         {
-          "value": "../UIHelper",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 22,
-              "column": 25
-            },
-            "end": {
-              "line": 22,
-              "column": 38
-            }
-          }
-        },
-        {
-          "value": "../layer/UIElementComponent",
+          "value": "../core/Fwks",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
-              "line": 24,
-              "column": 35
+              "line": 4,
+              "column": 20
             },
             "end": {
-              "line": 24,
-              "column": 64
+              "line": 4,
+              "column": 34
             }
           }
         },
         {
-          "value": "../../Fwks",
+          "value": "./game/common/UIManifest",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
-              "line": 25,
-              "column": 20
+              "line": 5,
+              "column": 36
             },
             "end": {
-              "line": 25,
-              "column": 32
+              "line": 5,
+              "column": 62
             }
           }
         }
@@ -3968,14 +3870,14 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIHelper.ts"
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Root.ts"
           },
           "messages": []
         },
         {
           "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/layer/UIElementComponent.ts"
+            "type": "external",
+            "specifierOrURL": "cc/env"
           },
           "messages": []
         },
@@ -3985,196 +3887,11 @@
             "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
           },
           "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UIMultiLayerNode.ts": {
-      "mTimestamp": {
-        "mtime": 1764147683787.454,
-        "uuid": "8dcfe6f8-5944-4892-8f43-900657a82a02"
-      },
-      "chunkId": "849caca0c61995c809210c240377cf2b058f9d90",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "./UILayerNodeBase",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 32
-            },
-            "end": {
-              "line": 2,
-              "column": 51
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UILayerNodeBase.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UISingletonLayerNode.ts": {
-      "mTimestamp": {
-        "mtime": 1763941175717.2603,
-        "uuid": "f090a539-36de-4cc9-a65e-ff74045a7963"
-      },
-      "chunkId": "bbded175c3f304266b65c9568d3e1556a2af49ec",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "../base/UILayerNodeBase",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 2,
-              "column": 32
-            },
-            "end": {
-              "line": 2,
-              "column": 57
-            }
-          }
-        },
-        {
-          "value": "../../Fwks",
-          "resolved": "__unresolved_2",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 20
-            },
-            "end": {
-              "line": 5,
-              "column": 32
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UILayerNodeBase.ts"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UIViewState.ts": {
-      "mTimestamp": {
-        "mtime": 1764185243595.766,
-        "uuid": "b959c9e8-25a5-4490-ab2b-3302222e5b01"
-      },
-      "chunkId": "4c4db222dd8015ec5a1f9eef7341ae6ee9b1323b",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/game/common/UIManifest.ts"
           },
           "messages": []
         }
@@ -4250,311 +3967,6 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/utils/utils.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/loader/ResManager.ts": {
-      "mTimestamp": {
-        "mtime": 1764638814304.0437,
-        "uuid": "e1013138-901c-456b-9b56-fc092b8e0345"
-      },
-      "chunkId": "3cf24c64189021a875b85629fcb30e72364d7717",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 3,
-              "column": 72
-            },
-            "end": {
-              "line": 3,
-              "column": 76
-            }
-          }
-        },
-        {
-          "value": "../../Fwks",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 5,
-              "column": 20
-            },
-            "end": {
-              "line": 5,
-              "column": 32
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/utils/utils.ts": {
-      "mTimestamp": {
-        "mtime": 1764638812208.8164,
-        "uuid": "3307a66f-c8f8-4922-abaa-4d44f0438202"
-      },
-      "chunkId": "72fc194729d99ba66ea1ce706809fdbcc5f58895",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "../enum/ui-layer.enum",
-          "resolved": "__unresolved_1",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": 49
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/ui-layer.enum.ts"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/base/UICompBase.ts": {
-      "mTimestamp": {
-        "mtime": 1764636807753.6167,
-        "uuid": "9a47df24-0344-4912-bf56-d4a1fdd8c0cc"
-      },
-      "chunkId": "e5ed0fbce9cc47d7207c89eb5ce4df01e9187d2e",
-      "imports": [
-        {
-          "value": "cce:/internal/code-quality/cr.mjs",
-          "resolved": "__unresolved_0"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 38
-            },
-            "end": {
-              "line": 1,
-              "column": 42
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/code-quality/cr.mjs"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/resources/gui/mainui/mai%20n.ts": {
-      "mTimestamp": {
-        "mtime": 1764018981993.1536,
-        "uuid": "6fe67ef0-bc57-4139-b27e-c740a43d426c"
-      },
-      "chunkId": "db9cd0243558432a6e9684d583e7f2edded2f8eb",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 44
-            },
-            "end": {
-              "line": 1,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        }
-      ]
-    },
-    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/game/mainui/mainui.ts": {
-      "mTimestamp": {
-        "mtime": 1764019013809.5063,
-        "uuid": "64435242-c42f-471c-950e-809d3e48df81"
-      },
-      "chunkId": "a1056d08cd60e52b2dfca79ddda2484ded4e18cd",
-      "imports": [
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc"
-        },
-        {
-          "value": "cc",
-          "loc": {
-            "start": {
-              "line": 1,
-              "column": 44
-            },
-            "end": {
-              "line": 1,
-              "column": 48
-            }
-          }
-        }
-      ],
-      "type": "esm",
-      "resolutions": [
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
-          },
-          "messages": []
-        },
-        {
-          "resolved": {
-            "type": "module",
-            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }
@@ -4643,6 +4055,407 @@
           "messages": []
         }
       ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkManager.ts": {
+      "mTimestamp": {
+        "mtime": 1764794401926.2185,
+        "uuid": "ff490d9c-c4b4-4b24-b891-02f08b144ac8"
+      },
+      "chunkId": "0a599e7cb766ee206344b91853bbb5a2845d1815",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 20
+            },
+            "end": {
+              "line": 2,
+              "column": 24
+            }
+          }
+        },
+        {
+          "value": "../../core/Fwks",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 20
+            },
+            "end": {
+              "line": 5,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./platform/WxMiniSdkPlatform",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 34
+            },
+            "end": {
+              "line": 6,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./platform/NativeSdkPlatform",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 34
+            },
+            "end": {
+              "line": 7,
+              "column": 64
+            }
+          }
+        },
+        {
+          "value": "./platform/WebSdkPlatform",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 31
+            },
+            "end": {
+              "line": 8,
+              "column": 58
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/Fwks.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WxMiniSdkPlatform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/NativeSdkPlatform.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WebSdkPlatform.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkTypes.ts": {
+      "mTimestamp": {
+        "mtime": 1764796496970.643,
+        "uuid": "34c1550c-afcf-496b-ac18-25affe4a9a17"
+      },
+      "chunkId": "6d26768c9b71535cbbe5c51820ab19337b09e310",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/base/ISdkPlatform.ts": {
+      "mTimestamp": {
+        "mtime": 1764796710750.7822,
+        "uuid": "893e236e-c5cd-45ca-8236-fa362f827f34"
+      },
+      "chunkId": "15e0fe9c3e64d11fa254ef3562656bc686be0e11",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/NativeSdkPlatform.ts": {
+      "mTimestamp": {
+        "mtime": 1764799426547.4873,
+        "uuid": "65236dd7-75b6-4637-9916-fe5b5ad0378a"
+      },
+      "chunkId": "f7d54babf1026e7646f35486440bd66348d13788",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 27
+            },
+            "end": {
+              "line": 2,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "../SdkTypes",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 107
+            },
+            "end": {
+              "line": 4,
+              "column": 120
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkTypes.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WebSdkPlatform.ts": {
+      "mTimestamp": {
+        "mtime": 1764794201620.3267,
+        "uuid": "47c7e467-2215-4dd8-983c-206b4ae07a4b"
+      },
+      "chunkId": "45941d7d0e7d86782c67eabaaeb9a2503058fe8a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../SdkTypes",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 107
+            },
+            "end": {
+              "line": 2,
+              "column": 120
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkTypes.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/platform/WxMiniSdkPlatform.ts": {
+      "mTimestamp": {
+        "mtime": 1764794138830.432,
+        "uuid": "7b497a8c-51b4-4b8a-be41-78b8a2f411b4"
+      },
+      "chunkId": "9f99d15fde94dcafa21497e28ecae002341976b0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../SdkTypes",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 106
+            },
+            "end": {
+              "line": 2,
+              "column": 119
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/script/sdk/SdkTypes.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1764799437836,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
     }
   }
 }

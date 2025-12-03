@@ -1,2 +1,26 @@
-/temp/asset-db/log
-/temp/asset-db/log
+# Cocos Creator 临时文件
+/temp/
+/library/
+/local/
+/build/
+
+# 编辑器配置
+/settings/
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Node modules
+/node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

@@ -1,46 +1,33 @@
-11-26-2025 17:19:56 - log: Load engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine
-11-26-2025 17:19:56 - log: Register native engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-11-26-2025 17:19:56 - log: Request namespace: device-list
-11-26-2025 17:20:00 - info: [PreviewInEditor] 预览环境初始化完毕
-11-26-2025 17:20:01 - log: [Scene] meshopt wasm decoder initialized
-11-26-2025 17:20:01 - log: [Scene] [bullet]:bullet wasm lib loaded.
-11-26-2025 17:20:01 - log: [Scene] [box2d]:box2d wasm lib loaded.
-11-26-2025 17:20:01 - log: [Scene] [PHYSICS]: using builtin.
-11-26-2025 17:20:01 - log: [Scene] Cocos Creator v3.8.7
-11-26-2025 17:20:01 - log: [Scene] Using custom pipeline: Builtin
-11-26-2025 17:20:01 - log: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-12-3-2025 02:34:07 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 在加载模块文件 /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts'
-    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6b/data:text/javascript,%0A%2F%2F%20This%20module%20is%20auto-generated%20to%20report%20error%20emitted%20when%20try%20to%20load%20module%20file%3A%2F%2F%2FUsers%2Fmichael%2FDesktop%2Fgitfiles%2Fcoscos_oop_frame_wrok%2Fassets%2Fcore%2Fcommon%2Fenum%2Futils.ts%20at%20runtime.%0Athrow%20new%20Error(%60Error%3A%20%E5%9C%A8%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9D%97%E6%96%87%E4%BB%B6%20%2FUsers%2Fmichael%2FDesktop%2Fgitfiles%2Fcoscos_oop_frame_wrok%2Fassets%2Fcore%2Fcommon%2Fenum%2Futils.ts%20%E6%97%B6%E5%8F%91%E7%94%9F%E9%94%99%E8%AF%AF%EF%BC%9AError%3A%20ENOENT%3A%20no%20such%20file%20or%20directory%2C%20open%20'%2FUsers%2Fmichael%2FDesktop%2Fgitfiles%2Fcoscos_oop_frame_wrok%2Fassets%2Fcore%2Fcommon%2Fenum%2Futils.ts'%60)%3B%0A%20%20%20%20%20%20%20%20:3:7)
-    at doExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
-    at Array.forEach (<anonymous>)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
-    at Array.forEach (<anonymous>)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1893
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2290)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2061)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 在加载模块文件 /Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts 时发生错误：Error: ENOENT: no such file or directory, open '/Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/common/enum/utils.ts'
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
-    at Array.forEach (<anonymous>)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
-    at Array.forEach (<anonymous>)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
-    at file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
-    at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
-    at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
-    at Executor.reload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:235:13)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1893
-    at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2290)
-    at GlobalEnv.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2061)
+12-4-2025 06:03:57 - log: Load engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine
+12-4-2025 06:03:57 - log: Register native engine in /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+12-4-2025 06:03:57 - log: Request namespace: device-list
+12-4-2025 06:04:01 - info: [PreviewInEditor] 预览环境初始化完毕
+12-4-2025 06:04:07 - log: [Scene] meshopt wasm decoder initialized
+12-4-2025 06:04:07 - log: [Scene] [box2d]:box2d wasm lib loaded.
+12-4-2025 06:04:07 - log: [Scene] [bullet]:bullet wasm lib loaded.
+12-4-2025 06:04:07 - log: [Scene] [PHYSICS]: using builtin.
+12-4-2025 06:04:08 - log: [Scene] Cocos Creator v3.8.7
+12-4-2025 06:04:08 - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
+    at logger (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:137:14)
+    at SystemJS.resolve (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+12-4-2025 06:04:08 - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIMgr.ts 为起点找不到模块 "../common/enum/utils"
+    at rejector (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:137:14)
+    at SystemJS.resolve (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/assets/core/gui/UIMgr.ts 为起点找不到模块 "../common/enum/utils"
+    at SystemJS.resolve (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
     at Logger._logHandler (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:487)
     at Logger.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
     at console.<anonymous> (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
@@ -50,15 +37,8 @@
     at Executor._onModuleLoaded (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:401:22)
     at SystemJS.onload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:99:18)
     at triggerOnload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
-    at doExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
-    at Array.forEach (<anonymous>)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:493:28
-    at Array.forEach (<anonymous>)
-    at postOrderExec (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:491:10)
-    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at async Promise.all (index 3)
     at file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:8:13
     at Object.execute (file:///Users/michael/Desktop/gitfiles/coscos_oop_frame_wrok/temp/programming/packer-driver/targets/editor/chunks/6d/cce:/internal/x/prerequisite-imports:4:1)
     at Executor._importPrerequisiteModules (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:358:13)
@@ -66,7 +46,10 @@
     at /Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1893
     at GlobalEnv.processQueue (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2290)
     at GlobalEnv.record (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:2061)
-12-3-2025 02:34:07 - warn: [Scene] Missing class: 60646LwlrJEdY8GHc/PKYHnError: [Scene] Missing class: 60646LwlrJEdY8GHc/PKYHn
+    at ScriptManager.init (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:4024)
+12-4-2025 06:04:08 - log: [Scene] Using custom pipeline: Builtin
+12-4-2025 06:04:08 - log: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+12-4-2025 06:04:08 - warn: [Scene] Missing class: 60646LwlrJEdY8GHc/PKYHnError: [Scene] Missing class: 60646LwlrJEdY8GHc/PKYHn
     at console.warn (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/core/src/utils-hoist/instrument/console.ts:40:14)
     at Object.classFinder (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/missing-reporter/missing-class-reporter.ccc:7:982)
     at _Deserializer.classFinder [as _classFinder] (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:118488:34)
@@ -105,16 +88,12 @@
     at parse (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119543:20)
     at Pipeline._flow (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121458:11)
     at eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121468:22)
-    at fetch (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119478:11)
-    at Pipeline._flow (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121458:11)
-    at Pipeline.async (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121454:16)
-    at options.__exclude__ (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119322:28)
-    at forEach (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:122172:7)
-    at load (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119299:5)
-    at Pipeline._flow (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121458:11)
-    at Pipeline.async (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:121454:16)
-    at AssetManager.loadWithJson (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:115013:31)
-12-3-2025 02:34:07 - error: [Scene] Script "60646LwlrJEdY8GHc/PKYHn" attached to "root" is missing or invalid. Detailed information:
+    at Array.eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:119483:11)
+    at finale (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:120713:27)
+    at eval (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:122045:11)
+    at XMLHttpRequest.xhr.onload (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:118340:11)
+    at XMLHttpRequest.sentryWrapped (/Applications/Cocos/Creator/3.8.7/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/browser/src/helpers.ts:116:17)
+12-4-2025 06:04:08 - error: [Scene] Script "60646LwlrJEdY8GHc/PKYHn" attached to "root" is missing or invalid. Detailed information:
 Node path: "root"
 Script UUID: "606462f0-96b2-4475-8f06-1dcfcf2981e7"
 Class ID: "60646LwlrJEdY8GHc/PKYHn"

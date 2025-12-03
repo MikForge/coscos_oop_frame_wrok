@@ -27,9 +27,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       __checkObsolete__(['__private', 'Asset', 'assetManager', 'AssetManager', 'resources']);
 
-      /**
-       * 资源操作选项
-       */
+      // 补充类型声明
+
+      /** 加载普通资源的参数 */
+
+      /** 加载目录资源的参数 */
 
       /**
        * 资源管理器
@@ -42,26 +44,93 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         /**
          * 加载资源
-         * @param options 加载选项
+         * @param args IResArgs 参数
          */
-        async load(options) {
-          const bundleName = options.bundleName || this.defaultBundleName;
+        async load(args) {
+          const bundleName = args.bundle || this.defaultBundleName;
           const bundle = await this.ensureBundle(bundleName);
-          const path = options.path;
-          const type = options.type;
-          const assetPromise = new Promise((resolve, reject) => {
-            bundle.load(path, type, (err, asset) => {
+          return new Promise((resolve, reject) => {
+            bundle.load(args.paths, args.type, args.onProgress, (err, assets) => {
               if (err) {
                 reject(err);
                 (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
                   error: Error()
-                }), Fwk) : Fwk).log.error(`ResManager: 资源加载失败 - Bundle: ${bundleName}, Path: ${path}, Error: ${err.message}`);
+                }), Fwk) : Fwk).log.error(`ResManager: 资源加载失败 - Bundle: ${bundleName}, Paths: ${JSON.stringify(args.paths)}, Error: ${err.message}`);
               } else {
-                resolve(asset);
+                resolve(assets);
+                args.onComplete == null || args.onComplete(null, assets);
               }
             });
           });
-          return assetPromise;
+        }
+        /**
+         * 预加载资源
+         * @param args IResArgs 参数
+         */
+
+
+        async preload(args) {
+          const bundleName = args.bundle || this.defaultBundleName;
+          const bundle = await this.ensureBundle(bundleName);
+          return new Promise((resolve, reject) => {
+            bundle.preload(args.paths, args.type, args.onProgress, err => {
+              if (err) {
+                reject(err);
+                (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
+                  error: Error()
+                }), Fwk) : Fwk).log.error(`ResManager: 资源预加载失败 - Bundle: ${bundleName}, Paths: ${JSON.stringify(args.paths)}, Error: ${err.message}`);
+              } else {
+                resolve();
+                args.onComplete == null || args.onComplete(null, null);
+              }
+            });
+          });
+        }
+        /**
+         * 加载目录资源
+         * @param args IResDirArgs 参数
+         */
+
+
+        async loadDir(args) {
+          const bundleName = args.bundle || this.defaultBundleName;
+          const bundle = await this.ensureBundle(bundleName);
+          return new Promise((resolve, reject) => {
+            bundle.loadDir(args.dir, args.type, args.onProgress, (err, assets) => {
+              if (err) {
+                reject(err);
+                (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
+                  error: Error()
+                }), Fwk) : Fwk).log.error(`ResManager: 目录资源加载失败 - Bundle: ${bundleName}, Dir: ${args.dir}, Error: ${err.message}`);
+              } else {
+                resolve(assets);
+                args.onComplete == null || args.onComplete(null, assets);
+              }
+            });
+          });
+        }
+        /**
+         * 预加载目录资源
+         * @param args IResDirArgs 参数
+         */
+
+
+        async preloadDir(args) {
+          const bundleName = args.bundle || this.defaultBundleName;
+          const bundle = await this.ensureBundle(bundleName);
+          return new Promise((resolve, reject) => {
+            bundle.preloadDir(args.dir, args.type, args.onProgress, err => {
+              if (err) {
+                reject(err);
+                (_crd && Fwk === void 0 ? (_reportPossibleCrUseOfFwk({
+                  error: Error()
+                }), Fwk) : Fwk).log.error(`ResManager: 目录资源预加载失败 - Bundle: ${bundleName}, Dir: ${args.dir}, Error: ${err.message}`);
+              } else {
+                resolve();
+                args.onComplete == null || args.onComplete(null, null);
+              }
+            });
+          });
         }
         /**
          * 加载资源包
@@ -110,20 +179,43 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
         /**
          * 释放资源
-         * @param options 释放选项
+         * @param args 释放选项
          */
 
 
-        release(options) {
-          const bundleName = options.bundleName || this.defaultBundleName;
+        release(args) {
+          const bundleName = args.bundle || this.defaultBundleName;
+          const bundle = assetManager.getBundle(bundleName);
+          const path = args.paths;
+
+          if (bundle) {
+            if (Array.isArray(path)) {
+              path.forEach(p => {
+                const asset = bundle.get(p);
+                if (asset) asset.decRef();
+              });
+            } else {
+              const asset = bundle.get(path);
+              if (asset) asset.decRef();
+            }
+          }
+        }
+        /**
+         * 释放目录资源
+         * @param args 释放选项
+         */
+
+
+        releaseDir(args) {
+          const bundleName = args.bundle || this.defaultBundleName;
           const bundle = assetManager.getBundle(bundleName);
 
           if (bundle) {
-            const asset = bundle.get(options.path);
-
-            if (asset) {
-              asset.decRef();
-            }
+            const infos = bundle.getDirWithPath(args.dir);
+            infos.forEach(info => {
+              const asset = bundle.get(info.path, args.type);
+              if (asset) asset.decRef();
+            });
           }
         }
 
