@@ -1,0 +1,66 @@
+import { ISdkPlatform } from "../base/ISdkPlatform";
+import { LoginResult, PayParams, SdkPlatformName,RewardAdResult, TrackEventPayload, RewardAdStatus } from "../SdkTypes";
+
+declare const wx: any;
+
+export class WxMiniSdkPlatform implements ISdkPlatform {
+    readonly name = SdkPlatformName.WX_MINI;
+
+    async init(): Promise<void> {
+        // 统计 SDK，广告 SDK 等初始化
+    }
+
+    async login(): Promise<LoginResult> {
+        const code: string = await new Promise((resolve, reject) => {
+            wx.login({
+                success: (res: any) => resolve(res.code),
+                fail: reject,
+            });
+        });
+
+        // 用 code 换 uid/token（找你自己的 PHP）
+        const resp = await fetch('/api/login_wx', {
+            method: 'POST',
+            body: JSON.stringify({ code }),
+        });
+        const data = await resp.json();
+
+        return {
+            uid: data.uid,
+            token: data.token,
+        };
+    }
+
+    async pay(params: PayParams): Promise<void> {
+        // 1. 先找你自己的 PHP 要 wx.requestPayment 的参数
+        const resp = await fetch('/api/order/create_wx_mini', {
+            method: 'POST',
+            body: JSON.stringify(params),
+        });
+        const payCfg = await resp.json();
+
+        // 2. 调用微信小游戏支付 API
+        return new Promise<void>((resolve, reject) => {
+            wx.requestPayment({
+                timeStamp: payCfg.timeStamp,
+                nonceStr:  payCfg.nonceStr,
+                package:   payCfg.package,
+                signType:  payCfg.signType,
+                paySign:   payCfg.paySign,
+                success: () => resolve(),
+                fail: (err: any) => reject(err),
+            });
+        });
+    }
+
+    async showRewardAd(placementId: string): Promise<RewardAdResult> {
+        // wx.createRewardedVideoAd(...)
+
+        return { status: RewardAdStatus.FAILED, placementId }; // 返回广告结果
+    }
+
+    trackEvent(data: TrackEventPayload): void {
+        // 大数据统计 SDK 埋点
+
+    }
+}
